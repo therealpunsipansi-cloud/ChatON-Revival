@@ -33,25 +33,48 @@ Scanning the decompiled source tree (`smali/`) reveals the following hardcoded s
 ### B. Phone Registration & SMS Verification Activities
 Located under package `com.sec.chaton.registration`:
 - **`AuthenticatorActivity`**: Handles account authentication and provisioning triggers (`com.sec.chaton.action.ADD_ACCOUNT`).
-- **`ActivityRegist`**: Main phone number registration and verification screen.
+- **`ActivityRegist`**: Main phone number registration and verification screen (`res/layout/layout_regist.xml`).
 - **`ActivityRegistPushName`**: Push name and profile setup during registration.
 - **`ActivityProvisioning`**: Device provisioning and server handshakes.
 - **`CountryActivity` / `CountryWrite`**: Country code selection and phone prefix input.
 - **`ActivityNonSelfSMS`**: Fallback SMS verification flow when auto-verification is unavailable.
 - **`NewDisclaimerView`**: Terms of service and user consent agreement.
 
-### C. Session Storage Mechanisms
+### C. Session Storage Mechanisms & SharedPreferences Keys (`bx.smali`)
 - **`SharedPreferences` (`ChatON` file)**:
   - Managed via helper utility class **`com.sec.chaton.util.bx` (`ChatONPref.java`)**.
-  - Stores application settings, login flags, tokens, push IDs, and user states under private preference storage named `"ChatON"`.
+  - **Key SharedPreferences Keys Read/Written/Checked**:
+    - `uid`: User ID. **Primary indicator** checked via `SharedPreferences.contains("uid")` in `HomeActivity.smali` to decide if the user is registered/logged in.
+    - `msisdn`: User phone number.
+    - `wasSMSregi`: Boolean flag tracking SMS registration state.
+    - `acstoken`: Access token cleared or updated during registration flows (`ActivityRegist.smali`).
+    - `UpdateIsCritical`, `UpdateTargetVersion`, `UpdateUrl`, `SamsungappsUrl`: OTA update tracking and URLs.
+    - `primary_contact_addrss`, `primary_contact_port`, `secondary_contact_addrss`, `secondary_contact_port`: Contact server addresses and ports.
+    - `primary_message_addrss`, `secondary_message_addrss`, `primary_file_addrss`, `secondary_file_addrss`, `primary_sms_address`, `secondary_sms_addrss`: Messaging, file, and SMS server endpoints.
+    - `expdate`: Expiration timestamp for server discovery configurations.
+    - `last_sync_time_on_start`: Timestamp of last startup sync.
 - **SQLite Databases**:
-  - Stored under application data paths (`/data/data/com.sec.chaton/databases/`) for managing local messages, chat threads, buddy lists, and profile data via content providers (`com.sec.chaton.provider`).
-- **Android `AccountManager`**:
-  - Integrates with Android's system `AccountManager` using permissions (`GET_ACCOUNTS`, `MANAGE_ACCOUNTS`, `AUTHENTICATE_ACCOUNTS`, `USE_CREDENTIALS`) and account type actions (`com.sec.chaton.action.ADD_ACCOUNT`).
+  - Stored under application data paths for messages, chat threads, and contacts (`com.sec.chaton.provider`).
+- **Android `AccountManager` Integration**:
+  - Upon successful registration and session establishment, if `uid` exists in `SharedPreferences` but `AccountManager.getAccountsByType("com.sec.chaton")` returns no accounts, `AccountManager.addAccount("com.sec.chaton", ...)` is triggered in `HomeActivity.smali` (`b()`) using an `AccountManagerCallback`.
 
 ---
 
-## 3. Native Libraries (`.so`) & Architecture
+## 3. Global Directory (gld1/gld2) Server Discovery (`b.smali`, `bl.smali`)
+
+- **Endpoints (`smali/com/sec/chaton/i/b.smali`)**:
+  - `https://gld1.samsungchaton.com`
+  - `https://stg.gld1.samsungchaton.com`
+  - `https://stg.gld2.samsungchaton.com`
+  - `http://ec2-50-17-226-248.compute-1.amazonaws.com`
+- **Discovery Mechanism (`smali/com/sec/chaton/util/bl.smali`)**:
+  - `ServerAddressMgr` manages endpoint fallback and selection (`a(bg)`).
+  - `checkExpireDate(boolean)` verifies whether the cached `expdate` in `SharedPreferences` has elapsed. If expired or missing, it triggers `com.sec.chaton.a.g` to fetch updated server routing data from GLD.
+  - **Expected Formats**: The Global Directory server responds with XML/JSON structured configuration data containing host addresses and ports for contact, messaging, file transfer, and SMS gateways, which are persisted into `SharedPreferences`.
+
+---
+
+## 4. Native Libraries (`.so`) & Architecture
 
 - **Native Library File**: `lib/armeabi/libAMSWiFiLibs.so`
 - **Loader Class**: `com.sec.amsoma.AMSLibs` (`smali/com/sec/amsoma/AMSLibs.smali`), which calls `System.loadLibrary("AMSWiFiLibs")`.
