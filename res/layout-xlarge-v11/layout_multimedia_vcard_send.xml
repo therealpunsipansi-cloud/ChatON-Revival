@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/parentPanel"
+    android:background="@color/ics_main_background_color_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@id/vcard_selectall_with_checkbox_layout"
+        android:background="@color/ics_main_background_color_2"
+        android:layout_width="fill_parent"
+        android:layout_height="74.0dip"
+        android:layout_marginBottom="2.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/vcard_selectall_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginTop="25.0dip"
+            android:layout_weight="1.0">
+            <TextView
+                android:textSize="22.0dip"
+                android:textColor="#ff000000"
+                android:ellipsize="marquee"
+                android:id="@id/vcard_selectall_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ams_select_all"
+                android:singleLine="true" />
+        </LinearLayout>
+        <ImageView
+            android:id="@id/vcard_selectall_chckbtn"
+            android:layout_width="34.0dip"
+            android:layout_height="34.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:src="@drawable/check_normal"
+            android:scaleType="fitXY"
+            android:layout_weight="0.0" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/vcard_line"
+        android:background="@drawable/list_2line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_weight="0.0" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/contentPanel"
+        android:background="@color/ics_main_background_color_2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/linear_layout_vcard_send"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="75.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="0.0">
+                <ImageView
+                    android:id="@id/vcard_image_icon"
+                    android:layout_width="58.0dip"
+                    android:layout_height="58.0dip"
+                    android:layout_marginLeft="14.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/profile_noimage"
+                    android:scaleType="fitXY"
+                    android:layout_weight="0.0" />
+                <TextView
+                    android:textSize="22.0dip"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff"
+                    android:ellipsize="marquee"
+                    android:id="@id/vcard_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true" />
+            </LinearLayout>
+            <ListView
+                android:id="@android:id/list"
+                android:background="@null"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0"
+                android:fastScrollEnabled="true" />
+            <ImageView
+                android:id="@id/divider"
+                android:background="@drawable/list_2line"
+                android:layout_width="fill_parent"
+                android:layout_height="2.0dip"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_weight="0.0" />
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@id/vcard_nocontact_layout"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+                <TextView
+                    android:textSize="18.0dip"
+                    android:textStyle="bold"
+                    android:textColor="#ffefad51"
+                    android:ellipsize="marquee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vcard_nocontact_message"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

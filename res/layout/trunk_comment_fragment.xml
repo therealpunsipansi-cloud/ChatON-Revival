@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:textSize="18.659973dip"
+        android:gravity="top"
+        android:id="@id/trunkCommentEdit"
+        android:background="@drawable/textfield_bg_2"
+        android:paddingLeft="15.0dip"
+        android:paddingTop="15.0dip"
+        android:paddingRight="15.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="4.659973dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_marginRight="4.659973dip"
+        android:maxLength="140"
+        android:layout_above="@id/buttonlLayout"
+        android:inputType="textCapSentences|textMultiLine" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/buttonlLayout"
+        android:background="@drawable/co_bg"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="6.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="54.599976dip"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:enabled="false"
+            android:id="@id/trunkCommentSendBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="@string/done"
+            android:layout_weight="0.5" />
+        <Button
+            android:id="@id/trunkCommentCancelBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="@string/cancel"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+</RelativeLayout>

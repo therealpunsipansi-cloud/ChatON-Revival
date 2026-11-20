@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:background="@color/ics_main_background_color_2"
+        android:layout_width="fill_parent"
+        android:layout_height="85.0dip">
+        <LinearLayout
+            android:padding="7.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.sec.chaton.widget.ProfileImageView
+                android:id="@id/spbd_profile_image"
+                android:visibility="visible"
+                android:layout_width="70.0dip"
+                android:layout_height="70.0dip"
+                android:src="@drawable/contacts_default_image"
+                android:scaleType="fitXY" />
+            <TextView
+                android:textSize="20.0dip"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:id="@id/spbd_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="8.0dip"
+                android:text="hello"
+                android:layout_toRightOf="@id/spbd_profile_image" />
+        </LinearLayout>
+        <ListView
+            android:id="@id/itemOptions"
+            android:background="@drawable/more_option_bg"
+            android:visibility="gone"
+            android:layout_width="240.0dip"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/list_2line"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/alert_layout"
+        android:background="@drawable/rect_border"
+        android:paddingLeft="13.0dip"
+        android:paddingRight="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="9.0dip">
+        <TextView
+            android:textSize="20.0dip"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:background="@color/ics_main_background_color_2"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_alert"
+            android:layout_weight="1.0" />
+        <CheckBox
+            android:gravity="center_vertical"
+            android:id="@id/spbd_alert_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ams_ics_selector_checkbox" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/list_divider" />
+        <Button
+            android:textSize="18.0dip"
+            android:textColor="@color/bottom_button_text_normal"
+            android:gravity="center"
+            android:id="@id/spbd_profile_block_button"
+            android:background="@drawable/btn_block_buddy_bg_xml"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:text="@string/buddy_list_contextual_menu_block"
+            android:shadowColor="@color/white"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0" />
+        <Button
+            android:textSize="18.0dip"
+            android:textColor="@color/bottom_button_text_normal"
+            android:gravity="center"
+            android:id="@id/spbd_profile_unblock_button"
+            android:background="@drawable/btn_block_buddy_bg_xml"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:text="@string/setting_block_unblock"
+            android:shadowColor="@color/white"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0" />
+    </LinearLayout>
+</LinearLayout>

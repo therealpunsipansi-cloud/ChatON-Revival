@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="77.32999dip"
+                android:layout_weight="0.0">
+                <TextView
+                    android:textSize="18.0dip"
+                    android:textColor="@color/brown_color_029"
+                    android:ellipsize="marquee"
+                    android:id="@id/vcalendar_event_detail_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="23.699982dip"
+                    android:singleLine="true" />
+                <TextView
+                    android:textSize="12.199982dip"
+                    android:textColor="#ffefad51"
+                    android:ellipsize="marquee"
+                    android:id="@id/vcalendar_event_detail_date_from"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4.5dip"
+                    android:singleLine="true" />
+                <TextView
+                    android:textSize="12.199982dip"
+                    android:textColor="#ffefad51"
+                    android:ellipsize="marquee"
+                    android:id="@id/vcalendar_event_detail_date_to"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4.5dip"
+                    android:singleLine="true" />
+            </LinearLayout>
+            <ImageView
+                android:background="#ff333a3a"
+                android:layout_width="fill_parent"
+                android:layout_height="0.30000007dip"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_weight="0.0" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="64.0dip"
+                android:layout_weight="0.0">
+                <TextView
+                    android:textSize="18.0dip"
+                    android:textColor="@color/brown_color_029"
+                    android:ellipsize="marquee"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginBottom="9.0dip"
+                    android:text="@string/layout_calendar_location"
+                    android:singleLine="true"
+                    android:layout_weight="0.0" />
+                <TextView
+                    android:textSize="12.199982dip"
+                    android:textColor="#ffefad51"
+                    android:ellipsize="marquee"
+                    android:id="@id/vcalendar_event_detail_location"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true" />
+            </LinearLayout>
+            <ImageView
+                android:id="@id/vcalendar_event_detail_map"
+                android:layout_width="fill_parent"
+                android:layout_height="225.32999dip"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginTop="6.659973dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_marginBottom="12.0dip"
+                android:scaleType="centerCrop"
+                android:layout_weight="0.0" />
+            <ImageView
+                android:id="@id/vcalendar_event_detail_map_bottom_line"
+                android:background="#ff333a3a"
+                android:layout_width="fill_parent"
+                android:layout_height="0.30000007dip"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_weight="0.0" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/vcalendar_event_detail_desc_area"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="64.0dip"
+                android:layout_weight="0.0">
+                <TextView
+                    android:textSize="18.0dip"
+                    android:textColor="@color/brown_color_029"
+                    android:ellipsize="marquee"
+                    android:id="@id/vcalendar_event_detail_description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:singleLine="true" />
+            </LinearLayout>
+            <ImageView
+                android:id="@id/vcalendar_event_detail_desc_bottom_line"
+                android:background="#ff333a3a"
+                android:layout_width="fill_parent"
+                android:layout_height="0.30000007dip"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_weight="0.0" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:background="@drawable/co_bg"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="4.659973dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="54.659973dip"
+        android:layout_weight="0.0">
+        <Button
+            android:textSize="16.0dip"
+            android:id="@id/vcal_event_detail_cancel"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:text="@string/layout_vcalendar_event_detail_cancel"
+            android:layout_weight="1.0" />
+        <Button
+            android:textSize="16.0dip"
+            android:id="@id/vcal_event_detail_save"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:text="@string/layout_vcalendar_event_detail_save"
+            android:layout_weight="1.0" />
+        <Button
+            android:textSize="16.0dip"
+            android:id="@id/vcal_event_detail_send"
+            android:layout_width="0.0dip"
+            android:layout_height="48.0dip"
+            android:text="@string/layout_vcalendar_event_detail_send"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

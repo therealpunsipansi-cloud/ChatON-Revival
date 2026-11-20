@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="75.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/buddy_child_profile_outline"
+        android:layout_width="82.0dip"
+        android:layout_height="fill_parent">
+        <com.sec.chaton.widget.RoundedImageView
+            android:id="@id/buddy_child_profile"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_centerVertical="true" />
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="top"
+            android:id="@id/buddy_like_badge"
+            android:paddingLeft="@dimen/buddy_adapter_child_item_image_location"
+            android:paddingTop="@dimen/buddy_adapter_child_item_image_location"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/special_buddies_list_icon" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="14.0dip"
+        android:layout_weight="1.0">
+        <TextView
+            android:textSize="22.0dip"
+            android:textColor="@color/buddy_list_item_name"
+            android:ellipsize="end"
+            android:id="@id/buddy_child_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:singleLine="true" />
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="@color/ics_buddy_profile_status"
+            android:ellipsize="end"
+            android:id="@id/buddy_child_status_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1.0dip"
+            android:singleLine="true" />
+    </LinearLayout>
+    <CheckBox
+        android:layout_gravity="center"
+        android:id="@id/buddy_child_check"
+        android:focusable="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginRight="12.0dip"
+        android:button="@drawable/checkbox_background_xml"
+        android:layout_weight="0.0" />
+    <Button
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:id="@id/buddy_add_button"
+        android:background="@drawable/btn_buddies_say"
+        android:focusable="false"
+        android:visibility="gone"
+        android:layout_width="100.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginBottom="14.0dip"
+        android:text="@string/edit_group_add_member" />
+    <ImageView
+        android:id="@id/buddy_chat_button"
+        android:background="@drawable/buddylist_chat_button_selector"
+        android:visibility="visible"
+        android:layout_width="47.0dip"
+        android:layout_height="45.0dip"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginBottom="14.0dip" />
+    <ImageView
+        android:id="@id/buddy_unselector"
+        android:visibility="gone"
+        android:layout_width="22.0dip"
+        android:layout_height="fill_parent" />
+    <ImageView
+        android:id="@id/buddy_selector"
+        android:visibility="visible"
+        android:layout_width="22.0dip"
+        android:layout_height="fill_parent"
+        android:src="@drawable/chact_preference_contents_list_arrow_holo_dark"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+</LinearLayout>

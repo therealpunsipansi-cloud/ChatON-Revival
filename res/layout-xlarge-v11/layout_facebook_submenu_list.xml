@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/ics_main_background_color_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_height="@dimen/settings_layout_height"
+            style="@style/BuddyListItemLayout">
+            <TextView
+                android:textSize="@dimen/buddy_name_font_size"
+                android:textColor="@color/buddy_list_item_name_highlight"
+                android:id="@id/facebook_account"
+                android:layout_width="0.0dip"
+                android:layout_marginLeft="@dimen/settings_layout_marginLeft"
+                android:singleLine="false"
+                android:layout_weight="1.0"
+                style="@style/BuddyListItemTextName" />
+            <Button
+                android:textSize="16.0dip"
+                android:typeface="sans"
+                android:ellipsize="marquee"
+                android:layout_gravity="center_vertical"
+                android:id="@id/facebook_logout"
+                android:background="@drawable/btn_block_buddy_bg_xml"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="42.0dip"
+                android:layout_marginRight="8.0dip"
+                android:text="@string/logout"
+                android:singleLine="true" />
+        </LinearLayout>
+        <include
+            layout="@layout/list_divider" />
+        <TextView
+            android:textSize="22.0dip"
+            android:typeface="sans"
+            android:textColor="@color/buddy_list_item_name"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:id="@id/facebook_invitation_card"
+            android:background="@drawable/buddy_item_xml"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="22.0dip"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="64.0dip"
+            android:text="@string/tellfriends_facebook_submenu_list_invitation_card"
+            android:singleLine="true"
+            android:drawableRight="@drawable/list_round_more_arrow" />
+        <include
+            layout="@layout/list_divider" />
+        <TextView
+            android:textSize="22.0dip"
+            android:typeface="sans"
+            android:textColor="@color/buddy_list_item_name"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:id="@id/facebook_invitation_msg"
+            android:background="@drawable/buddy_item_xml"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="22.0dip"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="64.0dip"
+            android:text="@string/tellfriends_facebook_submenu_list_invitation_message"
+            android:singleLine="true"
+            android:drawableRight="@drawable/list_round_more_arrow" />
+        <include
+            layout="@layout/list_divider" />
+    </LinearLayout>
+</LinearLayout>

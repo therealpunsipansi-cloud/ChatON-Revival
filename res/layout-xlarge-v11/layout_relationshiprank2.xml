@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/mainLayout"
+    android:background="@color/ics_main_background_color_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/week_title"
+        android:background="@drawable/sub_title_bg_02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:id="@id/week_title_text"
+            android:paddingLeft="8.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:text="@string/setting_interaction_rank" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10.0dip"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/rank_thumb_01" />
+            <TextView
+                android:textSize="18.0dip"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/setting_interaction_buddy" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/rank_thumb_02" />
+            <TextView
+                android:textSize="18.0dip"
+                android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/setting_interaction_me" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@id/listview_top3dumpview"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/top3DumpView"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+        <ListView
+            android:id="@id/relationship_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/no_item_layout"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140.0dip"
+            android:src="@drawable/no_rank"
+            android:scaleType="fitXY" />
+        <TextView
+            android:textSize="26.0dip"
+            android:textColor="@color/ics_main_font_color_2"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="80.0dip"
+            android:layout_marginTop="34.0dip"
+            android:layout_marginRight="80.0dip"
+            android:text="@string/setting_interaction_no_items" />
+    </LinearLayout>
+</LinearLayout>

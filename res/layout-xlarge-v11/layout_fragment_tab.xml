@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+    android:orientation="vertical"
+    android:id="@android:id/tabhost"
+    android:background="@color/ams_contents_list_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:background="@color/ams_contents_list_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="51.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip" />
+        <LinearLayout
+            android:id="@id/honeycomb_divider"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="14.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip"
+            android:layout_below="@android:id/tabs" />
+        <ImageView
+            android:id="@id/divider"
+            android:background="@drawable/list_divider_holo_light"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/honeycomb_divider" />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:layout_below="@id/divider" />
+        <ListView
+            android:id="@id/itemOptions"
+            android:background="@drawable/more_option_bg"
+            android:visibility="gone"
+            android:layout_width="240.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</TabHost>

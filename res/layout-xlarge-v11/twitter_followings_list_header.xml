@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/twitter_header_loading"
+    android:paddingTop="20.0dip"
+    android:paddingBottom="20.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"> ><ProgressBar
+        android:id="@id/header_loading_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10.0dip"
+        style="@android:style/Widget.ProgressBar.Small" />
+    <TextView
+        android:id="@id/header_loding_text"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:maxWidth="200.0dip"
+        android:text="@string/dialog_provision_ing"
+        android:layout_toRightOf="@id/header_loading_progress" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+.class Lcom/sec/chaton/userprofile/am;
+.super Ljava/lang/Object;
+.source "RelationshipRankFragment2.java"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# instance fields
+.field final synthetic a:Landroid/graphics/Bitmap;
+
+.field final synthetic b:Ljava/lang/String;
+
+.field final synthetic c:Lcom/sec/chaton/userprofile/RelationshipRankFragment2;
+
+
+# direct methods
+.method constructor <init>(Lcom/sec/chaton/userprofile/RelationshipRankFragment2;Landroid/graphics/Bitmap;Ljava/lang/String;)V
+    .locals 0
+
+    .prologue
+    .line 913
+    iput-object p1, p0, Lcom/sec/chaton/userprofile/am;->c:Lcom/sec/chaton/userprofile/RelationshipRankFragment2;
+
+    iput-object p2, p0, Lcom/sec/chaton/userprofile/am;->a:Landroid/graphics/Bitmap;
+
+    iput-object p3, p0, Lcom/sec/chaton/userprofile/am;->b:Ljava/lang/String;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/content/DialogInterface;I)V
+    .locals 5
+
+    .prologue
+    .line 916
+    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
+
+    .line 918
+    iget-object v0, p0, Lcom/sec/chaton/userprofile/am;->c:Lcom/sec/chaton/userprofile/RelationshipRankFragment2;
+
+    invoke-virtual {v0}, Lcom/sec/chaton/userprofile/RelationshipRankFragment2;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/sec/chaton/userprofile/am;->c:Lcom/sec/chaton/userprofile/RelationshipRankFragment2;
+
+    const v2, 0x7f0b022d
+
+    invoke-virtual {v1, v2}, Lcom/sec/chaton/userprofile/RelationshipRankFragment2;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/sec/chaton/userprofile/am;->a:Landroid/graphics/Bitmap;
+
+    iget-object v3, p0, Lcom/sec/chaton/userprofile/am;->b:Ljava/lang/String;
+
+    const/4 v4, 0x0
+
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/sec/chaton/util/bb;->a(Landroid/content/Context;Ljava/lang/String;Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 919
+    return-void
+.end method

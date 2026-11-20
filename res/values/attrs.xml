@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="UseReflection" format="boolean" />
+    <attr name="Items" format="integer" />
+    <attr name="SelectedItem" format="integer" />
+    <attr name="maxTheta" format="float" />
+    <attr name="minQuantity" format="integer" />
+    <attr name="maxQuantity" format="integer" />
+    <attr name="indicator" format="reference" />
+    <attr name="firstIndicator" format="reference" />
+    <attr name="lastIndicator" format="reference" />
+    <attr name="indicator_margin" format="dimension" />
+    <attr name="fullDark" format="reference|color" />
+    <attr name="topDark" format="reference|color" />
+    <attr name="centerDark" format="reference|color" />
+    <attr name="bottomDark" format="reference|color" />
+    <attr name="fullBright" format="reference|color" />
+    <attr name="topBright" format="reference|color" />
+    <attr name="centerBright" format="reference|color" />
+    <attr name="bottomBright" format="reference|color" />
+    <attr name="bottomMedium" format="reference|color" />
+    <attr name="centerMedium" format="reference|color" />
+    <attr name="amsAlertDialogStyle" format="reference" />
+    <attr name="majorWeight" format="float" />
+    <attr name="minorWeight" format="float" />
+</resources>

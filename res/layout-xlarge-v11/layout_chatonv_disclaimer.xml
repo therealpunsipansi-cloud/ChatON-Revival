@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/main_background_color"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.widget.GeneralHeaderView
+        android:id="@id/chatonv_txt_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:text="@string/setting_about_btn1_text" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+    <TextView
+        android:textSize="19.0dip"
+        android:gravity="center"
+        android:id="@id/chatonv_disclaimer_text"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:text="@string/setting_about_disclaimer_txt"
+        android:color="#ccffffff" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/layout_chekcbox_3rdparty"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginBottom="8.0dip">
+        <CheckBox
+            android:textSize="20.0dip"
+            android:textColor="#7affffff"
+            android:layout_gravity="center"
+            android:id="@id/chekcbox_3rdparty"
+            android:focusable="true"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ams_ics_selector_checkbox" />
+        <TextView
+            android:textSize="20.0dip"
+            android:textColor="#ff0000ff"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:id="@id/chatonv_disclaimer_3rdparty_detail"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+    <Button
+        android:textSize="20.0dip"
+        android:textColor="#ff2b2b2b"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/chatonv_disclaimer_terms"
+        android:background="@drawable/btn_registration_bg_xml"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_marginRight="8.0dip" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5.0" />
+    <Button
+        android:textSize="20.0dip"
+        android:textColor="#ff2b2b2b"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/chatonv_disclaimer_accept"
+        android:background="@drawable/btn_registration_bg_xml"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="7.0dip"
+        android:text="@string/setting_disclaimer_accept" />
+</LinearLayout>

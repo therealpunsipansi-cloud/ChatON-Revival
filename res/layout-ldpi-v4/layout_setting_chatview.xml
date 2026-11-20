@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:background="@drawable/co_title_bar"
+        android:paddingLeft="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="25.0dip"
+        android:text="@string/settings_chat_view_font_size" />
+    <include
+        android:layout_height="fill_parent"
+        android:layout_weight="0.0"
+        layout="@layout/layout_skin_chatroom" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="103.0dip">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginTop="10.0dip">
+            <TextView
+                android:gravity="center"
+                android:id="@id/text1"
+                android:layout_width="fill_parent"
+                android:layout_height="22.0dip"
+                android:text="50%"
+                android:layout_weight="1.0" />
+            <TextView
+                android:gravity="center"
+                android:id="@id/text2"
+                android:layout_width="fill_parent"
+                android:layout_height="22.0dip"
+                android:text="70%"
+                android:layout_weight="1.0" />
+            <TextView
+                android:gravity="center"
+                android:id="@id/text3"
+                android:layout_width="fill_parent"
+                android:layout_height="22.0dip"
+                android:text="100%"
+                android:layout_weight="1.0" />
+            <TextView
+                android:gravity="center"
+                android:id="@id/text4"
+                android:layout_width="fill_parent"
+                android:layout_height="22.0dip"
+                android:text="150%"
+                android:layout_weight="1.0" />
+            <TextView
+                android:gravity="center"
+                android:id="@id/text5"
+                android:layout_width="fill_parent"
+                android:layout_height="22.0dip"
+                android:text="200%"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LinearLayout1">
+            <RadioGroup
+                android:orientation="horizontal"
+                android:id="@id/menu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@id/size100"
+                android:layout_weight="1.0">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <RadioButton
+                    android:id="@id/size50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48.0dip" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_height="40.0dip"
+                    android:layout_marginBottom="20.0dip"
+                    android:src="@drawable/contacts_list_line" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <RadioButton
+                    android:id="@id/size70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48.0dip" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_height="40.0dip"
+                    android:layout_marginBottom="20.0dip"
+                    android:src="@drawable/contacts_list_line" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <RadioButton
+                    android:id="@id/size100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48.0dip" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_height="40.0dip"
+                    android:layout_marginBottom="20.0dip"
+                    android:src="@drawable/contacts_list_line" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <RadioButton
+                    android:id="@id/size150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48.0dip" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_height="40.0dip"
+                    android:layout_marginBottom="20.0dip"
+                    android:src="@drawable/contacts_list_line" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <RadioButton
+                    android:id="@id/size200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48.0dip" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/vcalendar_receive_menu_bar"
+        android:background="@drawable/co_bg"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="6.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="54.0dip">
+        <Button
+            android:textSize="16.0sp"
+            android:id="@id/save_viewsize"
+            android:background="@drawable/btn_disclaimer_bg_xml"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0.70000005dip"
+            android:text="@string/save"
+            android:layout_weight="1.0" />
+        <Button
+            android:textSize="16.0sp"
+            android:id="@id/btnCancel"
+            android:background="@drawable/btn_disclaimer_bg_xml"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0.70000005dip"
+            android:text="@string/cancel"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

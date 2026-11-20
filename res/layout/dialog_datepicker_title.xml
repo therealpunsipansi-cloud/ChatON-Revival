@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/datepicker_img"
+        android:background="@drawable/ic_dialog_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip" />
+    <TextView
+        android:textSize="25.0dip"
+        android:textColor="@color/white"
+        android:id="@id/datepicker_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/setting_birthday"
+        android:layout_toRightOf="@id/datepicker_img" />
+    <Button
+        android:textSize="20.0dip"
+        android:id="@id/datepicker_btn"
+        android:paddingTop="0.0dip"
+        android:paddingBottom="0.0dip"
+        android:layout_width="120.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="20.0dip"
+        android:text="@string/setting_solar"
+        android:layout_alignParentRight="true" />
+    <ImageView
+        android:background="@color/dark_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@id/datepicker_img" />
+</RelativeLayout>

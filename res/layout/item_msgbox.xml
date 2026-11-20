@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/msgLinear"
+    android:background="@drawable/buddy_item_xml"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_gravity="fill"
+        android:id="@id/rLayoutMsg"
+        android:padding="1.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="64.0dip"
+        android:layout_weight="1.0">
+        <com.sec.chaton.widget.ProfileImageView
+            android:id="@id/msgboxImageCheck"
+            android:focusable="false"
+            android:layout_width="53.0dip"
+            android:layout_height="53.0dip"
+            android:layout_marginRight="6.6999817dip"
+            android:scaleType="fitCenter"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+        <LinearLayout
+            android:id="@id/msgtextname"
+            android:layout_width="wrap_content"
+            android:layout_height="23.699982dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="4.0999756dip"
+            android:layout_toRightOf="@id/msgboxImageCheck">
+            <TextView
+                android:textSize="18.0dip"
+                android:textColor="#ffffffff"
+                android:ellipsize="end"
+                android:id="@id/msgboxTextName"
+                android:focusable="false"
+                android:layout_width="fill_parent"
+                android:layout_height="23.699982dip"
+                android:text="@string/mypage_profile_name"
+                android:singleLine="true" />
+        </LinearLayout>
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="#ffffffff"
+            android:id="@id/participantcount"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/msgtextname"
+            android:layout_alignTop="@id/msgtextname"
+            android:layout_alignBottom="@id/msgtextname" />
+        <TextView
+            android:textSize="14.0dip"
+            android:textColor="@color/msg_last_color"
+            android:id="@id/msgboxTextMessage"
+            android:paddingRight="82.69998dip"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/msgboxImageCheck"
+            android:layout_below="@id/msgtextname"
+            android:layout_alignLeft="@id/msgboxTextName" />
+        <TextView
+            android:textSize="14.0dip"
+            android:textColor="#ffa2a2a2"
+            android:id="@id/msgboxTime"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="03:44pm"
+            android:lines="1"
+            android:singleLine="true"
+            android:layout_alignBaseline="@id/msgboxTextMessage"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:textSize="12.0dip"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/msgboxImageCount"
+            android:background="@drawable/comment_bubble"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_alignBaseline="@id/msgboxTextName"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="#ffffffff"
+            android:id="@id/msgboxCount"
+            android:focusable="false"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="23.699982dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginRight="4.0dip"
+            android:layout_marginBottom="4.0999756dip"
+            android:singleLine="true"
+            android:layout_toLeftOf="@id/msgboxTime" />
+        <TextView
+            android:textSize="12.0dip"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/leftTrunkImageCount"
+            android:background="@drawable/trunk_bubble"
+            android:focusable="false"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="0.30000007dip"
+            android:layout_toLeftOf="@id/msgboxImageCount" />
+        <TextView
+            android:textSize="12.0dip"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/rightTrunkImageCount"
+            android:background="@drawable/trunk_bubble"
+            android:focusable="false"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_alignBaseline="@id/msgboxTextName"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <CheckBox
+        android:layout_gravity="center_vertical"
+        android:id="@id/msgCheck"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8.699982dip" />
+</LinearLayout>

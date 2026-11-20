@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:id="@id/droppanel_menu_rootview"
+    android:background="#00000000"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:id="@id/droppanel_menu_scrollview"
+        android:background="@drawable/more_option_bg"
+        android:paddingLeft="2.0dip"
+        android:paddingTop="0.5dip"
+        android:paddingRight="7.0dip"
+        android:paddingBottom="3.5dip"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:minWidth="228.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

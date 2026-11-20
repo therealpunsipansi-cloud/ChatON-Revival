@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/layout_popup_pen_style"
+        android:background="@drawable/ams_toolbar_menu_popup"
+        android:paddingLeft="13.0dip"
+        android:paddingTop="15.0dip"
+        android:paddingRight="13.0dip"
+        android:paddingBottom="13.0dip"
+        android:layout_width="@dimen/ams_ics_tool_pen_style_popup_w"
+        android:layout_height="@dimen/ams_ics_tool_pen_style_popup_h"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginBottom="5.0dip">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="36.0dip">
+            <ImageView
+                android:id="@id/btn_pen_style1"
+                android:src="@drawable/ams_ics_selector_pen_style1"
+                style="@style/AMSIcsToolSubMenuPopupButtonStyle" />
+            <ImageView
+                android:id="@id/btn_pen_style2"
+                android:src="@drawable/ams_ics_selector_pen_style2"
+                style="@style/AMSIcsToolSubMenuPopupButtonStyle" />
+            <ImageView
+                android:id="@id/btn_pen_style3"
+                android:src="@drawable/ams_ics_selector_pen_style3"
+                style="@style/AMSIcsToolSubMenuPopupButtonStyle" />
+            <ImageView
+                android:id="@id/btn_pen_style4"
+                android:src="@drawable/ams_ics_selector_pen_style4"
+                style="@style/AMSIcsToolSubMenuPopupButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

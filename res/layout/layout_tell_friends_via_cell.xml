@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip">
+        <ImageView
+            android:id="@id/twitter_following_thumb"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:textSize="@dimen/buddy_name_font_size"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:id="@id/twitter_followings_username"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:singleLine="true"
+            android:layout_weight="1.0" />
+        <Button
+            android:textSize="12.0dip"
+            android:textColor="@color/tell_friends_invite_btn_color"
+            android:id="@id/twitter_following_invite"
+            android:background="@drawable/unblock_btn_xml"
+            android:layout_width="63.0dip"
+            android:layout_height="34.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/chat_info_invite"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+</LinearLayout>

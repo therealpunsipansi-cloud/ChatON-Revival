@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/buddy_group_item"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <CheckBox
+            android:gravity="center"
+            android:id="@id/buddy_group_check"
+            android:focusable="false"
+            android:visibility="gone"
+            android:clickable="false"
+            android:layout_width="38.0dip"
+            android:layout_height="48.0dip"
+            android:layout_marginLeft="9.299988dip"
+            android:button="@drawable/checkbox_background_xml"
+            android:layout_weight="0.0" />
+        <TextView
+            android:textSize="21.0dip"
+            android:textColor="@color/ics_buddy_list_group_name"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:id="@id/buddy_group_name"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="13.299988dip"
+            android:layout_marginRight="10.0dip"
+            android:singleLine="true"
+            android:layout_weight="1.0" />
+        <TextView
+            android:textSize="21.0dip"
+            android:textColor="@color/ics_buddy_list_group_name"
+            android:gravity="center_vertical"
+            android:id="@id/buddy_group_count"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="13.299988dip"
+            android:layout_marginRight="13.299988dip"
+            android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

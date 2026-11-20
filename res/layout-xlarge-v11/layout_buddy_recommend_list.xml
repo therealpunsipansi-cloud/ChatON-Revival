@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ListView
+            android:id="@android:id/list"
+            style="@style/BuddyListStyle" />
+        <ImageView
+            android:background="@drawable/list_divider_h"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            android:id="@id/no_recommendations_layout"
+            layout="@layout/layout_suggestion_no_list" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/suggestion_ignore_add_all_button"
+        android:background="@drawable/bottom_button_bg"
+        android:padding="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0">
+        <Button
+            android:id="@id/suggestion_ignore_all_button"
+            android:text="@string/buddy_suggestion_ignore_all"
+            android:contentDescription="@string/buddy_suggestion_ignore_all"
+            style="@style/AddBuddyButtonStyle" />
+        <Button
+            android:id="@id/suggestion_add_all_button"
+            android:layout_marginLeft="4.0dip"
+            android:text="@string/buddy_suggestion_add_all"
+            android:contentDescription="@string/buddy_suggestion_add_all"
+            style="@style/AddBuddyButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/ics_main_background_color_2"
+        android:layout_width="fill_parent"
+        android:layout_height="130.0dip"
+        android:layout_weight="0.0">
+        <LinearLayout
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginTop="14.0dip">
+            <com.sec.chaton.widget.RoundedImageView
+                android:id="@id/group_profile_image"
+                android:background="@drawable/chat_list_group_chat_default"
+                android:layout_width="100.0dip"
+                android:layout_height="100.0dip"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="420.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="13.0dip">
+            <TextView
+                android:textSize="21.0dip"
+                android:typeface="sans"
+                android:textColor="@color/ics_main_font_color_2"
+                android:id="@id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0.0dip"
+                android:layout_marginTop="0.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:text="@string/mypage_profile_name" />
+            <EditText
+                android:textSize="21.0dip"
+                android:layout_gravity="center_vertical"
+                android:id="@id/group_name"
+                android:background="@drawable/btn_search_dialog_xml"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip"
+                android:layout_marginBottom="4.0dip"
+                android:minHeight="30.0dip"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:maxLength="30"
+                android:capitalize="sentences"
+                android:inputType="textCapSentences"
+                android:imeOptions="actionDone" />
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="right"
+                android:layout_gravity="center|right"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="18.0dip">
+                <ImageButton
+                    android:id="@id/dummy_image"
+                    android:background="@drawable/btn_search_dialog_voice_xml"
+                    android:layout_width="0.0dip"
+                    android:layout_height="0.0dip"
+                    android:layout_alignParentRight="true" />
+                <ImageButton
+                    android:layout_gravity="center|right"
+                    android:id="@id/group_profile_chat"
+                    android:background="@drawable/btn_search_dialog_voice_xml"
+                    android:layout_width="82.0dip"
+                    android:layout_height="72.0dip"
+                    android:layout_marginRight="9.0dip"
+                    android:src="@drawable/buddyprofile_chat_xml"
+                    android:layout_toLeftOf="@id/dummy_image" />
+                <ImageButton
+                    android:layout_gravity="center|right"
+                    android:id="@id/group_profile_broadcast"
+                    android:background="@drawable/btn_search_dialog_voice_xml"
+                    android:layout_width="82.0dip"
+                    android:layout_height="72.0dip"
+                    android:layout_marginRight="9.0dip"
+                    android:src="@drawable/buddyprofile_broadcast_xml"
+                    android:layout_toLeftOf="@id/dummy_image" />
+                <ImageButton
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/group_profile_call"
+                    android:background="@drawable/btn_search_dialog_voice_xml"
+                    android:layout_width="82.0dip"
+                    android:layout_height="72.0dip"
+                    android:layout_marginRight="9.0dip"
+                    android:src="@drawable/buddyprofile_call_3g_xml"
+                    android:layout_toLeftOf="@id/dummy_image" />
+                <ImageButton
+                    android:layout_gravity="center|right"
+                    android:id="@id/group_profile_video_call"
+                    android:background="@drawable/btn_search_dialog_voice_xml"
+                    android:layout_width="82.0dip"
+                    android:layout_height="72.0dip"
+                    android:src="@drawable/buddyprofile_videocall_xml"
+                    android:layout_toLeftOf="@id/dummy_image" />
+            </LinearLayout>
+            <ListView
+                android:id="@id/group_profile_option_list"
+                android:background="@drawable/more_option_bg"
+                android:visibility="gone"
+                android:layout_width="200.0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.0">
+        <FrameLayout
+            android:id="@id/buddy_controller"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/intro_bg_01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10.0dip"
+        android:src="@drawable/intro_icon"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/llayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20.0dip">
+        <ProgressBar
+            android:id="@id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:progressBarStyleSmall" />
+        <TextView
+            android:textSize="20.0dip"
+            android:id="@id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="@string/dialog_provision_ing" />
+    </LinearLayout>
+    <TextView
+        android:textSize="12.0sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/samsung_ltd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.0dip"
+        android:text="@string/samsung_company"
+        android:shadowColor="@color/gray"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0" />
+    <TextView
+        android:textSize="12.0sp"
+        android:textColor="@color/logo_is_different_for_canada_color"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/logo_differerent_for_canada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip"
+        android:text="@string/logo_is_different_for_canada"
+        android:shadowColor="@color/white"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0" />
+</LinearLayout>

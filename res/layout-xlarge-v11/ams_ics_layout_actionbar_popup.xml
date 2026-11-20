@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/layout_more_option"
+        android:background="@drawable/more_option_bg"
+        android:layout_width="@dimen/ams_ics_more_option_width"
+        android:layout_height="wrap_content" />
+</LinearLayout>

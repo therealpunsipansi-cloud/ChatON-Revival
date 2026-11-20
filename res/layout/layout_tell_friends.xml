@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:background="@drawable/co_title_bar"
+        android:paddingLeft="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="25.0dip"
+        android:text="@string/settings_invite_friend" />
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="#ffffffff"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:id="@id/setting_tell_friends"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13.0dip"
+        android:text="@string/setting_tell_friends" />
+    <ImageView
+        android:background="#ff333a3a"
+        android:layout_width="fill_parent"
+        android:layout_height="0.30000007dip" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/llayoutEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="64.0dip">
+            <Button
+                android:textColor="#ffffffff"
+                android:id="@id/btn_email"
+                android:background="@drawable/icon_email"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip" />
+            <TextView
+                android:textSize="22.0dip"
+                android:textColor="#ffffffff"
+                android:gravity="left"
+                android:id="@id/setting_tell_friends_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/setting_tell_friends_email_text" />
+        </LinearLayout>
+        <ImageView
+            android:background="#ff333a3a"
+            android:layout_width="fill_parent"
+            android:layout_height="0.30000007dip" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/llayoutSms"
+            android:layout_width="fill_parent"
+            android:layout_height="64.0dip">
+            <Button
+                android:textColor="#ffffffff"
+                android:id="@id/btn_sms"
+                android:background="@drawable/icon_sms"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip" />
+            <TextView
+                android:textSize="22.0dip"
+                android:textColor="#ffffffff"
+                android:gravity="left"
+                android:id="@id/tell_friends_sms"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/setting_tell_frinends_sms_text" />
+        </LinearLayout>
+        <ImageView
+            android:background="#ff333a3a"
+            android:layout_width="fill_parent"
+            android:layout_height="0.30000007dip" />
+    </LinearLayout>
+</LinearLayout>

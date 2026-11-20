@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/sync_active"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="6.0sp"
+        android:layout_marginBottom="2.0sp"
+        android:src="@drawable/ic_list_sync_anim" />
+    <ImageView
+        android:id="@id/sync_pending"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="6.0sp"
+        android:layout_marginBottom="2.0sp"
+        android:src="@drawable/icon_sync_normal" />
+</LinearLayout>

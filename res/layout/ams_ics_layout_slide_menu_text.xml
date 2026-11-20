@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/ams_toolbar_bg"
+        android:paddingTop="7.0dip"
+        android:paddingRight="5.0dip"
+        android:paddingBottom="7.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginBottom="4.0dip">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="351.0">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="41.0">
+                <ImageView
+                    android:layout_width="33.0dip"
+                    android:layout_height="33.0dip"
+                    android:src="@drawable/ams_toolbar_icon_text"
+                    android:scaleType="center" />
+            </LinearLayout>
+            <ImageView
+                android:id="@id/btn_text_size"
+                android:nextFocusLeft="@id/btn_text_size"
+                android:nextFocusRight="@id/btn_text_color"
+                android:nextFocusUp="@id/btn_text_size"
+                android:nextFocusDown="@id/btn_text_size"
+                android:layout_marginRight="3.0dip"
+                android:scaleType="center"
+                android:layout_weight="141.0"
+                style="@style/AMSIcsToolSlideMenuButtonStyle" />
+            <ImageView
+                android:id="@id/btn_text_color"
+                android:nextFocusLeft="@id/btn_text_size"
+                android:nextFocusRight="@id/btn_close"
+                android:nextFocusUp="@id/btn_text_color"
+                android:nextFocusDown="@id/btn_text_color"
+                android:layout_marginRight="4.0dip"
+                android:src="@drawable/ams_toolbar_icon_color"
+                android:scaleType="center"
+                android:layout_weight="142.0"
+                style="@style/AMSIcsToolSlideMenuButtonStyle" />
+            <ImageView
+                android:id="@id/btn_close"
+                android:nextFocusLeft="@id/btn_text_color"
+                android:nextFocusRight="@id/btn_close"
+                android:nextFocusUp="@id/btn_close"
+                android:nextFocusDown="@id/btn_close"
+                android:src="@drawable/ams_delete_icon"
+                android:scaleType="center"
+                android:layout_weight="27.0"
+                style="@style/AMSIcsToolSlideMenuButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

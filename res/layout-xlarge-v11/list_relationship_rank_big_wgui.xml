@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/rlay_relation"
+    android:background="@color/ics_main_background_color_2"
+    android:layout_width="fill_parent"
+    android:layout_height="114.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@id/relationImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="13.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginBottom="14.0dip">
+        <com.sec.chaton.widget.ProfileImageView
+            android:id="@id/relation_img"
+            android:layout_width="85.0dip"
+            android:layout_height="86.0dip"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+        <ImageView
+            android:id="@id/relation_rank_img"
+            android:visibility="invisible"
+            android:layout_width="85.0dip"
+            android:layout_height="86.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/relationImage">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/linear0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginBottom="17.0dip">
+            <TextView
+                android:textSize="22.0dip"
+                android:textColor="#ff000000"
+                android:ellipsize="marquee"
+                android:id="@id/relation_rank_text_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0.0dip"
+                android:text="@string/setting_interaction_wall"
+                android:singleLine="true" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/namenpoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0.0dip">
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_point_color"
+                    android:id="@id/relation_rank_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buddy_profile_rank" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_point_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" : " />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_point_color"
+                    android:id="@id/relation_rank_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_point_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / "
+                    android:shadowColor="@color/black" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_point_color"
+                    android:id="@id/relation_point_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buddy_profile_point" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_point_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" : "
+                    android:shadowColor="@color/black" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_point_color"
+                    android:id="@id/relation_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_interaction_zero" />
+            </LinearLayout>
+            <TextView
+                android:textSize="13.0dip"
+                android:textColor="@color/white"
+                android:ellipsize="marquee"
+                android:id="@id/relation_status_msg"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="29.0dip"
+                android:singleLine="true" />
+            <LinearLayout
+                android:id="@id/lbar"
+                android:layout_width="@dimen/my_page_interaction_rank_detail_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip">
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_bubble_received_text"
+                    android:gravity="center|right"
+                    android:id="@id/relation_received_pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="0.0dip" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/black"
+                    android:gravity="center|left"
+                    android:id="@id/relation_received"
+                    android:background="@drawable/interaction_rank_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_weight="250.0" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/black"
+                    android:gravity="center|right"
+                    android:id="@id/relation_send"
+                    android:background="@drawable/interaction_rank_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="150.0" />
+                <TextView
+                    android:textSize="16.0dip"
+                    android:textColor="@color/rank_bubble_sent_text"
+                    android:gravity="center|left"
+                    android:id="@id/relation_send_pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8.0dip" />
+                <RelativeLayout
+                    android:id="@id/rbar"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:layout_weight="50.0">
+                    <TextView
+                        android:textSize="16.0dip"
+                        android:textColor="@color/black"
+                        android:gravity="right"
+                        android:id="@id/relation_gap"
+                        android:background="#ffffffff"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="14.699982dip"
+                        android:text="@string/setting_interaction_gap"
+                        android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#ff464646"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+</RelativeLayout>

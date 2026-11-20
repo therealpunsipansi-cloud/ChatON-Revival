@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@id/rLayoutFriend"
+    android:padding="6.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/friendImageCheck"
+        android:background="@drawable/pic_default"
+        android:focusable="false"
+        android:layout_width="51.0dip"
+        android:layout_height="50.0dip"
+        android:layout_marginRight="6.0dip"
+        android:scaleType="fitCenter"
+        android:layout_weight="0.0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20.0dip"
+        android:ellipsize="marquee"
+        android:layout_gravity="center"
+        android:id="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="30.0dip"
+        android:singleLine="true"
+        android:layout_weight="1.0"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20.0dip"
+        android:id="@id/buddyid"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="30.0dip"
+        android:text="@string/setting_hide_buddyid"
+        android:layout_weight="0.0"
+        android:layout_toRightOf="@id/name"
+        android:layout_centerVertical="true" />
+    <Button
+        android:textSize="16.0dip"
+        android:gravity="center"
+        android:id="@id/menuCall"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="42.659973dip"
+        android:text="@string/setting_interaction_show"
+        android:layout_weight="0.0" />
+</LinearLayout>

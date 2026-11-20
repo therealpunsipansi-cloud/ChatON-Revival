@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/list_footer"
+    android:background="@color/ics_main_background_color_2"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar
+        android:id="@id/footer_progress"
+        android:visibility="gone"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip" />
+    <Button
+        android:textSize="18.0dip"
+        android:textColor="@color/ics_main_font_color_2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/footer_memo_content"
+        android:background="@color/ics_main_background_color_2"
+        android:focusable="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="14.0dip"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginRight="14.0dip"
+        android:minHeight="95.0dip"
+        android:text="@string/layout_msgbox_no_memo" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/footer_no_memo"
+        android:background="@color/ics_main_background_color_2"
+        android:visibility="gone"
+        android:alwaysDrawnWithCache="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="120.0dip"
+        android:layout_weight="1.0">
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="@color/ics_main_font_color_2"
+            android:id="@id/msg_no_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/layout_msgbox_no_memo" />
+    </LinearLayout>
+</LinearLayout>

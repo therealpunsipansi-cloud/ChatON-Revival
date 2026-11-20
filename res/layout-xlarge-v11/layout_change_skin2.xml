@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/skin_window"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/list_frames"
+        android:focusable="true"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/list_bg_horizontal_parent"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="199.0dip"
+            android:layout_marginRight="8.0dip">
+            <com.sec.widget.HorizontalListView
+                android:scrollbarThumbHorizontal="@drawable/scroll"
+                android:scrollbarStyle="outsideInset"
+                android:id="@id/list_bg_horizontal"
+                android:scrollbars="horizontal"
+                android:descendantFocusability="afterDescendants"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="37.0dip"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:smoothScrollbar="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/list_bubble_horizontal_send_parent"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="199.0dip"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginTop="33.0dip"
+            android:layout_marginRight="8.0dip">
+            <com.sec.widget.HorizontalListView
+                android:scrollbarThumbHorizontal="@drawable/scroll"
+                android:scrollbarStyle="outsideInset"
+                android:id="@id/list_bubble_horizontal_send"
+                android:scrollbars="horizontal"
+                android:descendantFocusability="afterDescendants"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:smoothScrollbar="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/list_bubble_horizontal_receive_parent"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="199.0dip"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginTop="33.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_below="@id/list_bubble_horizontal_send_parent">
+            <com.sec.widget.HorizontalListView
+                android:scrollbarThumbHorizontal="@drawable/scroll"
+                android:id="@id/list_bubble_horizontal_receive"
+                android:scrollbars="horizontal"
+                android:descendantFocusability="afterDescendants"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:smoothScrollbar="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@id/layout_frame_skin_chatroom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/list_frames"
+        android:layout_below="@id/buddy_profile_title">
+        <include
+            android:layout_height="wrap_content"
+            layout="@layout/layout_skin_chatroom_bubble" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="11.0dip"
+            android:layout_marginTop="0.0dip"
+            android:src="@drawable/chaton_chats_header_shadow"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+</RelativeLayout>

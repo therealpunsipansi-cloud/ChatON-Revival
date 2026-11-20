@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/vcard_item"
+    android:background="@drawable/sub_title_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@id/vcard_item_header"
+        android:background="@drawable/attach_calender_date_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip">
+        <TextView
+            android:textSize="14.0dip"
+            android:textStyle="bold"
+            android:textColor="@color/brown_color_001"
+            android:gravity="center_vertical"
+            android:id="@id/vcard_item_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="14.0dip"
+            android:text="@string/vcard_type_phone" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/buddy_item_xml"
+        android:layout_width="fill_parent"
+        android:layout_height="74.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/vcard_item_text_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginTop="15.0dip"
+            android:layout_marginRight="72.0dip"
+            android:layout_weight="1.0">
+            <TextView
+                android:textSize="18.0dip"
+                android:textColor="#ffe86d00"
+                android:ellipsize="marquee"
+                android:id="@id/list_vcard_main_text"
+                android:layout_width="fill_parent"
+                android:layout_height="22.0dip"
+                android:layout_marginBottom="2.0dip"
+                android:singleLine="true" />
+            <TextView
+                android:textSize="22.0dip"
+                android:textColor="#ff000000"
+                android:ellipsize="marquee"
+                android:id="@id/list_vcard_sub_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+        </LinearLayout>
+        <ImageView
+            android:id="@id/vcard_checkbtn"
+            android:layout_width="34.0dip"
+            android:layout_height="34.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:src="@drawable/check_normal"
+            android:scaleType="fitXY"
+            android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

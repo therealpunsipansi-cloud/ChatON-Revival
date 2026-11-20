@@ -1,0 +1,19 @@
+.class public Lcom/sec/chaton/io/entry/UnBlock;
+.super Lcom/sec/chaton/io/entry/Entry;
+.source "UnBlock.java"
+
+
+# instance fields
+.field public buddyid:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 3
+    invoke-direct {p0}, Lcom/sec/chaton/io/entry/Entry;-><init>()V
+
+    return-void
+.end method

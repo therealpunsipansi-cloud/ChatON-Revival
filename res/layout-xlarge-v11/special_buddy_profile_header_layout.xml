@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:background="@color/main_background_color"
+            android:paddingLeft="8.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingBottom="7.0dip"
+            android:descendantFocusability="afterDescendants"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@id/profile_ignore_special_buddy"
+                android:layout_marginRight="4.0dip"
+                android:src="@drawable/add_buddies_special02"
+                android:contentDescription="@string/buddy_suggestion_ignore"
+                style="@style/BuddyProfileMenuImageButton" />
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@id/profile_add_special_buddy"
+                android:layout_marginRight="4.0dip"
+                android:src="@drawable/add_buddies_special"
+                android:contentDescription="@string/buddy_profile_button_addbuddy"
+                style="@style/BuddyProfileMenuImageButton" />
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@id/profile_special_chat"
+                android:visibility="gone"
+                android:layout_marginRight="4.0dip"
+                android:src="@drawable/add_buddies_color_chat_icon"
+                android:contentDescription="@string/menu_button_start_chat"
+                style="@style/BuddyProfileMenuImageButton" />
+        </LinearLayout>
+        <include
+            android:id="@id/layout_profile_phone_no_line"
+            layout="@layout/list_divider" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/main_background_color"
+            android:focusableInTouchMode="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="43.0dip">
+                <ImageView
+                    android:id="@id/profile_special_url_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22.0dip"
+                    android:src="@drawable/mypage_profile_icon_birthday"
+                    android:contentDescription="@string/buddy_profile_birthday" />
+                <TextView
+                    android:id="@id/profile_special_url"
+                    android:text="@string/buddy_profile_interaction"
+                    android:contentDescription="@string/buddy_profile_interaction"
+                    style="@style/BuddyProfileItemTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/list_special_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                style="@style/SubTitleStyle">
+                <TextView
+                    android:id="@id/special_selected_category"
+                    android:layout_width="fill_parent"
+                    android:text="@string/memo_title"
+                    android:contentDescription="@string/memo_title"
+                    style="@style/SubTitleTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.0" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/layoutButton"
+            android:background="@drawable/bottom_button_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:textSize="18.0dip"
+                android:id="@id/profile_spcial_buddy_see_more_btn"
+                android:background="@drawable/btn_registration_bg_xml"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:text="@string/special_buddy_button_see_more"
+                android:contentDescription="@string/special_buddy_button_see_more"
+                style="@style/ShadowTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

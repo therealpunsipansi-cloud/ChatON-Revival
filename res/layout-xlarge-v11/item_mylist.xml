@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/rLayoutFriend"
+        android:background="@color/ics_main_background_color_2"
+        android:paddingTop="8.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingBottom="8.0dip"
+        android:focusable="true"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:focusable="false"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="12.0dip">
+            <com.sec.chaton.widget.ProfileImageView
+                android:layout_gravity="center"
+                android:id="@id/friendImageCheck"
+                android:focusable="false"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+        <TextView
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="22.0dip"
+            android:textColor="@color/ics_main_font_color_2"
+            android:ellipsize="marquee"
+            android:layout_gravity="center"
+            android:id="@id/name"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_marginLeft="11.0dip"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            android:layout_toRightOf="@id/friendImageCheck"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="20.0dip"
+            android:ellipsize="marquee"
+            android:id="@id/buddyid"
+            android:focusable="false"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/name"
+            android:layout_centerVertical="true" />
+        <Button
+            android:textSize="16.0dip"
+            android:textColor="@color/buddy_list_item_text_button"
+            android:gravity="center"
+            android:id="@id/menuCall"
+            android:background="@drawable/btn_block_buddy_bg_xml"
+            android:focusable="true"
+            android:layout_width="100.0dip"
+            android:layout_height="43.0dip"
+            android:text="@string/setting_block_unblock"
+            android:layout_weight="0.0" />
+    </LinearLayout>
+    <ImageView
+        android:background="@drawable/list_2line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+</LinearLayout>

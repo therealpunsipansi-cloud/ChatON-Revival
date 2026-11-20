@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/ams_ics_attention_dialog_width"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/popup_bg_top"
+                android:paddingLeft="24.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="64.0dip">
+                <TextView
+                    android:textSize="22.0dip"
+                    android:textColor="#ffffffff"
+                    android:gravity="left"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ams_title_send" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/layout_send_method_list"
+                android:background="@drawable/popup_bg_center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/popup_bg_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginBottom="8.0dip">
+                <CheckBox
+                    android:id="@id/checkbox_with_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8.0dip"
+                    android:button="@drawable/ams_ics_selector_checkbox" />
+                <TextView
+                    android:textSize="18.0dip"
+                    android:textColor="#80000000"
+                    android:id="@id/text_with_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ams_send_with_text" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip">
+                <Button
+                    android:id="@id/btn_cancel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="52.0dip"
+                    android:layout_marginLeft="48.0dip"
+                    android:layout_marginRight="48.0dip"
+                    android:text="@string/ams_btn_cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

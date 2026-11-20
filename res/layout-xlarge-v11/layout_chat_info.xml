@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/ics_main_background_color_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@id/user_info"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="beforeDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0">
+        <com.sec.chaton.widget.ProfileImageView
+            android:id="@id/user_image"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_margin="20.0dip"
+            android:scaleType="fitXY" />
+        <EditText
+            android:textSize="21.0dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/user_name"
+            android:background="@drawable/btn_search_dialog_xml"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip"
+            android:layout_width="450.0dip"
+            android:layout_height="wrap_content"
+            android:hint="@string/regist_name"
+            android:singleLine="true"
+            android:maxLength="30"
+            android:imeOptions="actionDone" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/alert_layout"
+        android:background="@drawable/rect_border"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:layout_marginLeft="7.0dip"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginRight="7.0dip"
+        android:layout_marginBottom="10.0dip">
+        <TextView
+            android:textSize="20.0dip"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_alert"
+            android:layout_weight="1.0" />
+        <CheckBox
+            android:gravity="center_vertical"
+            android:id="@id/alert_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ams_ics_selector_checkbox" />
+    </LinearLayout>
+    <RelativeLayout
+        android:background="@color/ics_main_background_color_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.0">
+        <FrameLayout
+            android:id="@id/buddy_controller"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ImageView
+            android:id="@id/base_divider"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/chat_preference_contents_list_no_arrow_left_split_default_holo_dark"
+            android:scaleType="fitXY"
+            android:layout_weight="0.0"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

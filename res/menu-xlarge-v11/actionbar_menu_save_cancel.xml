@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/popup_tab_icon_cancel"
+        android:id="@id/menu_cancel"
+        android:titleCondensed="@string/cancel"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:icon="@drawable/tab_icon_save"
+        android:id="@id/menu_save"
+        android:titleCondensed="@string/save"
+        android:showAsAction="ifRoom|withText" />
+</menu>

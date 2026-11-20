@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+    android:orientation="vertical"
+    android:id="@id/TabHost01"
+    android:background="@color/ics_main_background_color_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/ics_main_background_color_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="56.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip" />
+        <LinearLayout
+            android:id="@id/honeycomb_divider"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip">
+            <ImageView
+                android:id="@id/divider"
+                android:background="@drawable/list_divider_holo_light"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@id/week_title"
+                    android:background="@drawable/sub_title_bg_02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip">
+                    <TextView
+                        android:textSize="18.0dip"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/week_layout_title"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18.0dip"
+                        android:layout_weight="1.0" />
+                    <LinearLayout
+                        android:gravity="right"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.0">
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="20.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/rank_thumb_01" />
+                        <TextView
+                            android:textSize="18.0dip"
+                            android:textColor="@color/white"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text="@string/setting_interaction_buddy" />
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="20.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/rank_thumb_02" />
+                        <TextView
+                            android:textSize="18.0dip"
+                            android:textColor="@color/white"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20.0dip"
+                            android:text="@string/buddy_profile_interaction_me" />
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout
+                    android:id="@id/listview_top3dumpview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0">
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:id="@id/top3DumpView"
+                            android:visibility="invisible"
+                            android:layout_width="360.0dip"
+                            android:layout_height="wrap_content" />
+                    </ScrollView>
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:id="@id/top3DumpViewLand"
+                            android:visibility="invisible"
+                            android:layout_width="360.0dip"
+                            android:layout_height="wrap_content" />
+                    </ScrollView>
+                    <ListView
+                        android:id="@id/relationship_list"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0" />
+                </FrameLayout>
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+                    <LinearLayout
+                        android:layout_gravity="top"
+                        android:orientation="vertical"
+                        android:id="@id/no_item_layout"
+                        android:visibility="invisible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="207.0dip"
+                            android:layout_height="208.0dip"
+                            android:layout_marginTop="93.0dip"
+                            android:src="@drawable/no_rank"
+                            android:scaleType="fitXY" />
+                        <TextView
+                            android:textSize="22.0dip"
+                            android:gravity="center"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="39.0dip"
+                            android:layout_marginTop="10.0dip"
+                            android:layout_marginRight="39.0dip"
+                            android:text="@string/interaction_no_rank_rext" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

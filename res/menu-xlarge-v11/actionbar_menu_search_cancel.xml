@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/chaton_title_ic_search"
+        android:id="@id/actionbar_title_search"
+        android:title="@string/add_buddy_action_bar_search"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:icon="@drawable/ic_menu_close_clear_cancel"
+        android:id="@id/actionbar_title_cancel"
+        android:title="@string/dialog_cancel"
+        android:showAsAction="ifRoom|withText" />
+</menu>

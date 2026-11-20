@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/ams_ics_selector_action_button_bg"
+    android:focusable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="9.0dip"
+        android:layout_marginRight="12.0dip">
+        <ImageView
+            android:id="@id/icon_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0dip"
+            android:scaleType="center" />
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="@color/ams_ics_actionbar_menu_text"
+            android:id="@id/text_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,168 @@
+.class final Lorg/jboss/netty/handler/codec/http/HttpChunk$1;
+.super Ljava/lang/Object;
+.source "HttpChunk.java"
+
+# interfaces
+.implements Lorg/jboss/netty/handler/codec/http/HttpChunkTrailer;
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 46
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public addHeader(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 2
+
+    .prologue
+    .line 60
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "read-only"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public clearHeaders()V
+    .locals 0
+
+    .prologue
+    .line 65
+    return-void
+.end method
+
+.method public containsHeader(Ljava/lang/String;)Z
+    .locals 1
+
+    .prologue
+    .line 68
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public getContent()Lorg/jboss/netty/buffer/ChannelBuffer;
+    .locals 1
+
+    .prologue
+    .line 48
+    sget-object v0, Lorg/jboss/netty/buffer/ChannelBuffers;->EMPTY_BUFFER:Lorg/jboss/netty/buffer/ChannelBuffer;
+
+    return-object v0
+.end method
+
+.method public getHeader(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    .prologue
+    .line 72
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public getHeaderNames()Ljava/util/Set;
+    .locals 1
+
+    .prologue
+    .line 76
+    invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getHeaders()Ljava/util/List;
+    .locals 1
+
+    .prologue
+    .line 84
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getHeaders(Ljava/lang/String;)Ljava/util/List;
+    .locals 1
+
+    .prologue
+    .line 80
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public isLast()Z
+    .locals 1
+
+    .prologue
+    .line 56
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public removeHeader(Ljava/lang/String;)V
+    .locals 0
+
+    .prologue
+    .line 89
+    return-void
+.end method
+
+.method public setContent(Lorg/jboss/netty/buffer/ChannelBuffer;)V
+    .locals 2
+
+    .prologue
+    .line 52
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "read-only"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public setHeader(Ljava/lang/String;Ljava/lang/Iterable;)V
+    .locals 2
+
+    .prologue
+    .line 96
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "read-only"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public setHeader(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 2
+
+    .prologue
+    .line 92
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "read-only"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

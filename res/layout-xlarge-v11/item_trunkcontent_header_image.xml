@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="330.0dip">
+        <ImageView
+            android:id="@id/trunkContentMainImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="125.0dip"
+            android:layout_marginRight="125.0dip"
+            android:scaleType="fitCenter" />
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/defaultPlayBtn"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/msg_play_button_03" />
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/trunkContentDownloadProgressbar"
+            android:visibility="gone"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:indeterminateDrawable="@anim/progressbar_trunk" />
+    </FrameLayout>
+    <RelativeLayout
+        android:gravity="bottom"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="30.0dip"
+        android:paddingBottom="2.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@id/refreshCommentButton"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trunk_menu_refresh"
+            android:drawableLeft="@drawable/chaton_trunk_ic_refresh"
+            android:drawablePadding="10.0dip"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="#ff000000"
+            android:id="@id/previousCommentButton"
+            android:paddingTop="14.0dip"
+            android:paddingBottom="13.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trunk_btn_previous_comments"
+            android:drawableRight="@drawable/detail_veiw_arrow_right"
+            android:drawablePadding="10.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:textSize="18.0dip"
+            android:textColor="#ffe86d00"
+            android:gravity="center_vertical"
+            android:id="@id/trunkContentCommentCount"
+            android:paddingTop="11.0dip"
+            android:paddingBottom="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/chat_comment"
+            android:drawablePadding="6.0dip"
+            android:layout_alignParentRight="false"
+            android:layout_centerVertical="true" />
+        <ProgressBar
+            android:id="@id/trunkCommentsLoadingProgressbar"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:indeterminateDrawable="@anim/progressbar_trunk"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="22.0dip"
+        android:textColor="@color/color_palette_13"
+        android:gravity="center"
+        android:id="@id/trunkNoCommentTextView"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/trunk_write_comment"
+        android:inputType="textMultiLine" />
+</LinearLayout>

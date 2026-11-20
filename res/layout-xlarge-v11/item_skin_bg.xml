@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/skin_bg_layout"
+    android:paddingLeft="10.0dip"
+    android:focusable="true"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/skin_bg"
+        android:background="@drawable/btn_change_bubble_bg_xml"
+        android:padding="4.0dip"
+        android:focusable="true"
+        android:layout_width="120.0dip"
+        android:layout_height="120.0dip"
+        android:layout_marginBottom="1.0dip"
+        android:src="@drawable/thumb_skin_bg_01" />
+    <TextView
+        android:textSize="22.0dip"
+        android:textColor="#ff3c1f0a"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/skin_bg_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
