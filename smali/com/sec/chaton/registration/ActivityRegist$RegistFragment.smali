@@ -2828,7 +2828,7 @@
 .end method
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
-    .locals 15
+    .locals 10
 
     .prologue
     const v9, 0x7f0c034e
@@ -2862,128 +2862,7 @@
     move-result-object v1
 
     .line 273
-    invoke-virtual {p0}, Lcom/sec/chaton/registration/ActivityRegist$RegistFragment;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v10
-
-    .line 274
-    invoke-virtual {p0}, Lcom/sec/chaton/registration/ActivityRegist$RegistFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
-
-    move-result-object v11
-
-    invoke-virtual {v11}, Landroid/support/v4/app/FragmentActivity;->getPackageName()Ljava/lang/String;
-
-    move-result-object v11
-
-    .line 275
-    const-string v14, "et_username"
-
-    const-string v12, "id"
-
-    invoke-virtual {v10, v14, v12, v11}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
-
-    move-result v14
-
-    invoke-virtual {v1, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v12
-
-    check-cast v12, Landroid/widget/EditText;
-
-    .line 276
-    const-string v14, "et_password"
-
-    const-string v13, "id"
-
-    invoke-virtual {v10, v14, v13, v11}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
-
-    move-result v14
-
-    invoke-virtual {v1, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v13
-
-    check-cast v13, Landroid/widget/EditText;
-
-    .line 277
-    const-string v14, "btn_login"
-
-    const-string v0, "id"
-
-    invoke-virtual {v10, v14, v0, v11}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
-
-    move-result v14
-
-    invoke-virtual {v1, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v14
-
-    check-cast v14, Landroid/widget/Button;
-
-    .line 278
-    if-eqz v14, :cond_login_bind
-
-    .line 279
-    new-instance v0, Lcom/sec/chaton/registration/CustomAuthClickListener;
-
-    invoke-virtual {p0}, Lcom/sec/chaton/registration/ActivityRegist$RegistFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
-
-    move-result-object v10
-
-    const-string v11, "/api/login"
-
-    invoke-direct {v0, v10, v12, v13, v11}, Lcom/sec/chaton/registration/CustomAuthClickListener;-><init>(Landroid/app/Activity;Landroid/widget/EditText;Landroid/widget/EditText;Ljava/lang/String;)V
-
-    invoke-virtual {v14, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 280
-    :cond_login_bind
-    invoke-virtual {p0}, Lcom/sec/chaton/registration/ActivityRegist$RegistFragment;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v10
-
-    .line 281
-    invoke-virtual {p0}, Lcom/sec/chaton/registration/ActivityRegist$RegistFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
-
-    move-result-object v11
-
-    invoke-virtual {v11}, Landroid/support/v4/app/FragmentActivity;->getPackageName()Ljava/lang/String;
-
-    move-result-object v11
-
-    .line 282
-    const-string v14, "btn_signup"
-
-    const-string v0, "id"
-
-    invoke-virtual {v10, v14, v0, v11}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
-
-    move-result v14
-
-    invoke-virtual {v1, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v14
-
-    check-cast v14, Landroid/widget/Button;
-
-    .line 283
-    if-eqz v14, :cond_signup_bind
-
-    .line 284
-    new-instance v0, Lcom/sec/chaton/registration/CustomAuthClickListener;
-
-    invoke-virtual {p0}, Lcom/sec/chaton/registration/ActivityRegist$RegistFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
-
-    move-result-object v10
-
-    const-string v11, "/api/register"
-
-    invoke-direct {v0, v10, v12, v13, v11}, Lcom/sec/chaton/registration/CustomAuthClickListener;-><init>(Landroid/app/Activity;Landroid/widget/EditText;Landroid/widget/EditText;Ljava/lang/String;)V
-
-    invoke-virtual {v14, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 285
-    :cond_signup_bind.line 274
+    invoke-static {p0, v1}, Lcom/sec/chaton/registration/CustomAuthClickListener;->attach(Lcom/sec/chaton/registration/ActivityRegist$RegistFragment;Landroid/view/View;)V.line 274
     invoke-static {}, Lcom/sec/chaton/global/GlobalApplication;->j()Z
 
     move-result v0
