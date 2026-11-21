@@ -359,7 +359,7 @@
     .line 72
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     const-string v2, "anicon_category"
 
@@ -368,7 +368,7 @@
     .line 73
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     new-array v2, v5, [Ljava/lang/Object;
 
@@ -389,7 +389,7 @@
     .line 76
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     const-string v2, "anicon_package"
 
@@ -398,7 +398,7 @@
     .line 77
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     new-array v2, v7, [Ljava/lang/Object;
 
@@ -425,7 +425,7 @@
     .line 78
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     new-array v2, v5, [Ljava/lang/Object;
 
@@ -448,7 +448,7 @@
     .line 81
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     const-string v2, "anicon_item"
 
@@ -459,7 +459,7 @@
     .line 82
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     new-array v2, v7, [Ljava/lang/Object;
 
@@ -486,7 +486,7 @@
     .line 83
     iget-object v0, p0, Lcom/sec/chaton/provider/ChatONProvider2;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.sec.chaton.provider2"
+    const-string v1, "com.revived.chaton.provider2"
 
     new-array v2, v5, [Ljava/lang/Object;
 

@@ -15,7 +15,7 @@
 
     .prologue
     .line 16
-    const-string v0, "content://com.sec.chaton.provider"
+    const-string v0, "content://com.revived.chaton.provider"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

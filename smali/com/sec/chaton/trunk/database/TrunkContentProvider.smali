@@ -1368,7 +1368,7 @@
     .line 60
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk"
 
@@ -1379,7 +1379,7 @@
     .line 61
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk/*"
 
@@ -1390,7 +1390,7 @@
     .line 64
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk_item/trunk_comment"
 
@@ -1401,7 +1401,7 @@
     .line 65
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk_item/trunk_comment/item/*"
 
@@ -1412,7 +1412,7 @@
     .line 66
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk_item/trunk_comment/*"
 
@@ -1423,7 +1423,7 @@
     .line 69
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk_item"
 
@@ -1434,7 +1434,7 @@
     .line 70
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk_item/markAsRead/*"
 
@@ -1445,7 +1445,7 @@
     .line 71
     iget-object v0, p0, Lcom/sec/chaton/trunk/database/TrunkContentProvider;->b:Landroid/content/UriMatcher;
 
-    const-string v1, "com.develop.sec.chaton.provider"
+    const-string v1, "com.develop.revived.chaton.provider"
 
     const-string v2, "trunk_item/*"
 

@@ -302,7 +302,7 @@
     :cond_3
     iget-object v0, p0, Lcom/sec/chaton/a/a/m;->a:Landroid/content/ContentResolver;
 
-    const-string v3, "com.sec.chaton.provider"
+    const-string v3, "com.revived.chaton.provider"
 
     invoke-virtual {v0, v3, v2}, Landroid/content/ContentResolver;->applyBatch(Ljava/lang/String;Ljava/util/ArrayList;)[Landroid/content/ContentProviderResult;
 

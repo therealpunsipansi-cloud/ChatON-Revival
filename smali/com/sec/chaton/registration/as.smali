@@ -47,7 +47,7 @@
     move-result-object v0
 
     .line 554
-    const-string v8, "com.sec.chaton"
+    const-string v8, "com.revived.chaton"
 
     .line 555
     invoke-static {}, Lcom/sec/chaton/util/bx;->a()Landroid/content/SharedPreferences;

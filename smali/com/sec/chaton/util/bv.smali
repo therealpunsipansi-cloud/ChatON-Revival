@@ -430,7 +430,7 @@
     new-array v3, v2, [Ljava/lang/String;
 
     .line 76
-    const-string v1, "com.sec.chaton"
+    const-string v1, "com.revived.chaton"
 
     aput-object v1, v3, v0
 

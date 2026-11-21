@@ -202,7 +202,7 @@
 
     move-result-object v1
 
-    const-string v2, "com.sec.chaton"
+    const-string v2, "com.revived.chaton"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

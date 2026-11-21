@@ -271,7 +271,7 @@
     invoke-static {v0, v1}, Lcom/sec/chaton/util/j;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 129
-    const-string v0, "com.sec.chaton"
+    const-string v0, "com.revived.chaton"
 
     invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -345,7 +345,7 @@
     .line 141
     const-string v2, "accountType"
 
-    const-string v3, "com.sec.chaton"
+    const-string v3, "com.revived.chaton"
 
     invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -414,7 +414,7 @@
     invoke-static {v0, v1}, Lcom/sec/chaton/util/j;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 160
-    const-string v0, "com.sec.chaton"
+    const-string v0, "com.revived.chaton"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

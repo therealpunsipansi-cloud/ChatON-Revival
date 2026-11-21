@@ -1356,7 +1356,7 @@
 
     iget-object v3, v0, Lcom/sec/chaton/a/a/q;->c:Landroid/content/ContentResolver;
 
-    const-string v4, "com.sec.chaton.provider"
+    const-string v4, "com.revived.chaton.provider"
 
     move-object/from16 v0, v27
 
@@ -1662,7 +1662,7 @@
 
     iget-object v1, v0, Lcom/sec/chaton/a/a/q;->c:Landroid/content/ContentResolver;
 
-    const-string v3, "com.sec.chaton.provider"
+    const-string v3, "com.revived.chaton.provider"
 
     invoke-virtual {v1, v3, v4}, Landroid/content/ContentResolver;->applyBatch(Ljava/lang/String;Ljava/util/ArrayList;)[Landroid/content/ContentProviderResult;
     :try_end_2

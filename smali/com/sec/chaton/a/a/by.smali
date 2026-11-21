@@ -623,7 +623,7 @@
     if-lez v1, :cond_2
 
     .line 188
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     iget-object v2, p0, Lcom/sec/chaton/a/a/by;->b:Ljava/util/ArrayList;
 

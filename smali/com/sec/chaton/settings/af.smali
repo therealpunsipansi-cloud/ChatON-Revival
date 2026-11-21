@@ -122,7 +122,7 @@
     if-eqz v0, :cond_2
 
     .line 199
-    const-string v1, "com.sec.chaton"
+    const-string v1, "com.revived.chaton"
 
     iget-object v2, p0, Lcom/sec/chaton/settings/af;->a:Lcom/sec/chaton/settings/AboutFragment;
 

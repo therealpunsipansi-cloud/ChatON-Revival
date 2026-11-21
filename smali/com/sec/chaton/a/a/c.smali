@@ -226,7 +226,7 @@
     if-lez v0, :cond_3
 
     .line 129
-    const-string v0, "com.sec.chaton.provider"
+    const-string v0, "com.revived.chaton.provider"
 
     invoke-virtual {v6, v0, v9}, Landroid/content/ContentResolver;->applyBatch(Ljava/lang/String;Ljava/util/ArrayList;)[Landroid/content/ContentProviderResult;
     :try_end_0

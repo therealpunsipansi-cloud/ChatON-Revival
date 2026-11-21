@@ -99,7 +99,7 @@
     if-eqz v0, :cond_1
 
     .line 185
-    const-string v1, "com.sec.chaton"
+    const-string v1, "com.revived.chaton"
 
     iget-object v2, p0, Lcom/sec/chaton/am;->a:Lcom/sec/chaton/UpgradeDialog;
 

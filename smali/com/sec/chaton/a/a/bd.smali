@@ -193,7 +193,7 @@
     move-result-object v1
 
     .line 213
-    const-string v2, "com.sec.chaton"
+    const-string v2, "com.revived.chaton"
 
     invoke-virtual {v1, v2}, Landroid/accounts/AccountManager;->getAccountsByType(Ljava/lang/String;)[Landroid/accounts/Account;
 

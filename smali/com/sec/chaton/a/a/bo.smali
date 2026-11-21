@@ -267,7 +267,7 @@
 
     move-result-object v2
 
-    const-string v3, "com.sec.chaton.provider"
+    const-string v3, "com.revived.chaton.provider"
 
     invoke-virtual {v2, v3, v0}, Landroid/content/ContentResolver;->applyBatch(Ljava/lang/String;Ljava/util/ArrayList;)[Landroid/content/ContentProviderResult;
 
@@ -351,7 +351,7 @@
 
     move-result-object v0
 
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     invoke-virtual {v0, v1, v8}, Landroid/content/ContentResolver;->applyBatch(Ljava/lang/String;Ljava/util/ArrayList;)[Landroid/content/ContentProviderResult;
 

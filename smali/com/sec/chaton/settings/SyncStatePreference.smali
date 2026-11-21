@@ -116,7 +116,7 @@
 
     if-eqz v1, :cond_0
 
-    const-string v1, "com.sec.chaton"
+    const-string v1, "com.revived.chaton"
 
     iget-object v0, v0, Landroid/content/SyncInfo;->account:Landroid/accounts/Account;
 

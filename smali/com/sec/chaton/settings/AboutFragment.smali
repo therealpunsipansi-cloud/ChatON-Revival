@@ -84,7 +84,7 @@
     move-result-object v2
 
     .line 322
-    const-string v1, "http://market.android.com/details?id=com.sec.chaton"
+    const-string v1, "http://market.android.com/details?id=com.revived.chaton"
 
     .line 324
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
@@ -146,13 +146,13 @@
 
     .line 338
     :cond_1
-    const-string v0, "com.sec.chaton"
+    const-string v0, "com.revived.chaton"
 
     .line 339
     if-eqz v2, :cond_2
 
     .line 340
-    const-string v0, "com.sec.chaton"
+    const-string v0, "com.revived.chaton"
 
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -169,7 +169,7 @@
     if-eqz v1, :cond_3
 
     .line 344
-    const-string v0, "com.sec.chaton"
+    const-string v0, "com.revived.chaton"
 
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 

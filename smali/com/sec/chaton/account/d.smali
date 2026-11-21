@@ -78,7 +78,7 @@
     .line 38
     const-string v1, "account_type"
 
-    const-string v2, "com.sec.chaton"
+    const-string v2, "com.revived.chaton"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/ContentProviderOperation$Builder;->withValue(Ljava/lang/String;Ljava/lang/Object;)Landroid/content/ContentProviderOperation$Builder;
 

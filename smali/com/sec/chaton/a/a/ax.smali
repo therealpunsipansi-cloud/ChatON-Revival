@@ -326,7 +326,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "com.sec.chaton"
+    const-string v5, "com.revived.chaton"
 
     aput-object v5, v3, v4
 

@@ -105,7 +105,7 @@
     .line 292
     new-instance v0, Landroid/accounts/Account;
 
-    const-string v1, "com.sec.chaton"
+    const-string v1, "com.revived.chaton"
 
     invoke-direct {v0, p1, v1}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -390,7 +390,7 @@
     .line 354
     const-string v1, "accountType"
 
-    const-string v2, "com.sec.chaton"
+    const-string v2, "com.revived.chaton"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

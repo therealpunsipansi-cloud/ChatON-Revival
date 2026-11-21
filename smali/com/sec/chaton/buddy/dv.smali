@@ -60,7 +60,7 @@
 
     .line 509
     :try_start_0
-    const-string v2, "com.sec.chaton.provider"
+    const-string v2, "com.revived.chaton.provider"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/ContentResolver;->applyBatch(Ljava/lang/String;Ljava/util/ArrayList;)[Landroid/content/ContentProviderResult;
 

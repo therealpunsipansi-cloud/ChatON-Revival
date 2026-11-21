@@ -1427,10 +1427,10 @@
     invoke-direct {v0, v1}, Landroid/content/UriMatcher;-><init>(I)V
 
     .line 858
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     .line 860
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/buddy_no/*"
 
@@ -1439,7 +1439,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 861
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/participants_no_same"
 
@@ -1448,7 +1448,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 862
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/participants"
 
@@ -1457,7 +1457,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 863
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/profile"
 
@@ -1466,7 +1466,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 864
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/group"
 
@@ -1475,7 +1475,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 865
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/alphabetical"
 
@@ -1484,7 +1484,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 866
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/alphabetical2"
 
@@ -1493,7 +1493,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 867
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/relation"
 
@@ -1502,7 +1502,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 868
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy/alphabetical_special"
 
@@ -1511,7 +1511,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 869
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy"
 
@@ -1520,7 +1520,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 871
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy_group/group_info"
 
@@ -1529,7 +1529,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 872
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy_group/*"
 
@@ -1538,7 +1538,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 873
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddy_group"
 
@@ -1547,7 +1547,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 876
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "contacts/conatct_number/*"
 
@@ -1556,7 +1556,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 877
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "contacts/*"
 
@@ -1565,7 +1565,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 878
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "contacts"
 
@@ -1574,7 +1574,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 880
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "grouprelation/group_relation_group/*"
 
@@ -1583,7 +1583,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 881
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "grouprelation/group_relation_buddy/*"
 
@@ -1592,7 +1592,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 882
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "grouprelation/group"
 
@@ -1601,7 +1601,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 883
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "grouprelation/buddy_in"
 
@@ -1610,7 +1610,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 884
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "grouprelation/buddy_not_in"
 
@@ -1619,7 +1619,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 885
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "grouprelation"
 
@@ -1628,7 +1628,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 887
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox/get_inbox_no"
 
@@ -1637,7 +1637,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 889
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox/inbox_invalid_update"
 
@@ -1646,7 +1646,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 891
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox/group_title_update"
 
@@ -1655,7 +1655,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 892
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox/buddy_participant_join"
 
@@ -1664,7 +1664,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 893
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox/inbox_no"
 
@@ -1673,7 +1673,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 894
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox/*"
 
@@ -1682,7 +1682,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 895
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox"
 
@@ -1691,7 +1691,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 898
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "inbox_buddy_relation"
 
@@ -1700,7 +1700,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 901
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/read_ack/*"
 
@@ -1709,7 +1709,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 902
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/message_sever_id/*"
 
@@ -1718,7 +1718,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 903
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/message_buddy"
 
@@ -1727,7 +1727,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 904
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/message_buddy/*"
 
@@ -1736,7 +1736,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 906
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/count/*"
 
@@ -1745,7 +1745,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 908
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/send"
 
@@ -1754,7 +1754,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 909
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/received"
 
@@ -1763,7 +1763,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 911
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/send/inbox"
 
@@ -1772,7 +1772,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 912
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message/*"
 
@@ -1781,7 +1781,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 913
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "message"
 
@@ -1790,7 +1790,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 915
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "relation/insert"
 
@@ -1799,7 +1799,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 916
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "relation/day"
 
@@ -1808,7 +1808,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 917
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "relation"
 
@@ -1817,7 +1817,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 919
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "participant/*"
 
@@ -1826,7 +1826,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 920
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "participant"
 
@@ -1835,7 +1835,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 923
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "memo"
 
@@ -1844,7 +1844,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 924
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "memo_sessions"
 
@@ -1853,7 +1853,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 928
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "recommendee"
 
@@ -1862,7 +1862,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 929
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "specialbuddy"
 
@@ -1871,7 +1871,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 933
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "me"
 
@@ -1880,7 +1880,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 935
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "myextrainfo"
 
@@ -1889,7 +1889,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 936
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddyextrainfo/#"
 
@@ -1898,7 +1898,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 937
-    const-string v1, "com.sec.chaton.provider"
+    const-string v1, "com.revived.chaton.provider"
 
     const-string v2, "buddyextrainfoall"
 

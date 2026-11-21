@@ -270,7 +270,7 @@
     :cond_1
     new-instance v1, Landroid/accounts/Account;
 
-    const-string v2, "com.sec.chaton"
+    const-string v2, "com.revived.chaton"
 
     invoke-direct {v1, v0, v2}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -384,7 +384,7 @@
 
     const/4 v5, 0x0
 
-    const-string v6, "com.sec.chaton"
+    const-string v6, "com.revived.chaton"
 
     aput-object v6, v4, v5
 

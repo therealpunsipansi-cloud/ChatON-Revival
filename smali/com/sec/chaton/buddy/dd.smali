@@ -652,7 +652,7 @@
     if-eqz v2, :cond_6
 
     .line 2218
-    const-string v2, "content://com.sec.chaton.provider/relation"
+    const-string v2, "content://com.revived.chaton.provider/relation"
 
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

@@ -849,7 +849,7 @@
     :try_start_1
     iget-object v1, p0, Lcom/sec/chaton/d/b/b;->g:Landroid/content/ContentResolver;
 
-    const-string v2, "com.sec.chaton.provider"
+    const-string v2, "com.revived.chaton.provider"
 
     invoke-virtual {v1, v2, v3}, Landroid/content/ContentResolver;->applyBatch(Ljava/lang/String;Ljava/util/ArrayList;)[Landroid/content/ContentProviderResult;
     :try_end_1

@@ -25,7 +25,7 @@
 
     const/4 v1, 0x1
 
-    const-string v2, "com.sec.chaton.provider2"
+    const-string v2, "com.revived.chaton.provider2"
 
     aput-object v2, v0, v1
 
