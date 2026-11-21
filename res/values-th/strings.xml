@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">เลือก​รหัส​ประเทศ หาก​แตก​ต่าง​จาก​ประเทศ​ของ​คุณ</string>
     <string name="layout_scribble_send">ส่ง</string>
     <string name="layout_scribble_cancel">ยก​เลิก</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">ลง​ทะเบียน​หมาย​เลข​โทรศัพท์​ของ​คุณ</string>
     <string name="regist_inputPno2">ใส่​หมาย​เลข​โทรศัพท์​ใน​รูป​แบบ​ระหว่าง​ประเทศ</string>
     <string name="regist_already_regist">ลง​ทะเบียน​แล้ว</string>

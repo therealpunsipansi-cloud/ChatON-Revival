@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Izberite kodo države, če je drugačna od vaše</string>
     <string name="layout_scribble_send">Pošlji</string>
     <string name="layout_scribble_cancel">Prekliči</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Registrirajte telefonsko številko</string>
     <string name="regist_inputPno2">Vnesite telefonsko številko v mednarodni obliki</string>
     <string name="regist_already_regist">Že registrirano</string>

@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Välj landskod om den skiljer sig från din</string>
     <string name="layout_scribble_send">Sänd</string>
     <string name="layout_scribble_cancel">Avbryt</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Registrera ditt telefonnummer</string>
     <string name="regist_inputPno2">Ange telefonnummer i internationellt format</string>
     <string name="regist_already_regist">Redan registrerat</string>

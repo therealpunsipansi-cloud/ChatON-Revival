@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">აირჩიეთ ქვეყნის კოდი, თუ იგი განსხვავდება თქვენი კოდისგან</string>
     <string name="layout_scribble_send">გაგზ.</string>
     <string name="layout_scribble_cancel">გაუქმება</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">დაარეგისტრირეთ თქვენი ტელეფონის ნომერი</string>
     <string name="regist_inputPno2">აკრიფეთ ტელეფონის ნომერი საერთაშორისო ფორმატით</string>
     <string name="regist_already_regist">უკვე დარეგისტრირებული</string>

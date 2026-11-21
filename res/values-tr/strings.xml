@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Sizinkinden farklıysa ülke kodunu seçin</string>
     <string name="layout_scribble_send">Gönder</string>
     <string name="layout_scribble_cancel">İptal</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Telefon numaranızı kaydedin</string>
     <string name="regist_inputPno2">Telefon numarasını uluslararası formatta girin</string>
     <string name="regist_already_regist">Zaten kayıtlı</string>

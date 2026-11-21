@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Odaberite kod države ako se razlikuje od vašeg</string>
     <string name="layout_scribble_send">Pošalji</string>
     <string name="layout_scribble_cancel">Prekid</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Registrirajte svoj tel. broj</string>
     <string name="regist_inputPno2">Unesite telefonski broj u internacionalnom formatu</string>
     <string name="regist_already_regist">Već spremljeno</string>

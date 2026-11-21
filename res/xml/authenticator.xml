@@ -2,6 +2,6 @@
 <account-authenticator
     android:label="@string/label"
     android:icon="@drawable/chaton_logo"
-    android:accountType="com.sec.chaton"
+    android:accountType="com.revived.chaton"
     android:smallIcon="@drawable/chaton_logo"
     xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.sec.chaton"
+    package="com.revived.chaton"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <supports-screens
         android:smallScreens="false"
@@ -96,20 +96,20 @@
     <uses-permission
         android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission
-        android:name="com.sec.chaton.push.BROADCAST_PUSH_MESSAGE" />
+        android:name="com.revived.chaton.push.BROADCAST_PUSH_MESSAGE" />
     <permission
-        android:name="com.sec.chaton.push.BROADCAST_PUSH_MESSAGE"
+        android:name="com.revived.chaton.push.BROADCAST_PUSH_MESSAGE"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.sec.chaton.provider.READ_PERMISSION"
+        android:name="com.revived.chaton.provider.READ_PERMISSION"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.sec.chaton.provider.WRITE_PERMISSION"
+        android:name="com.revived.chaton.provider.WRITE_PERMISSION"
         android:protectionLevel="signature" />
     <uses-permission
-        android:name="com.sec.chaton.provider.READ_PERMISSION" />
+        android:name="com.revived.chaton.provider.READ_PERMISSION" />
     <uses-permission
-        android:name="com.sec.chaton.provider.WRITE_PERMISSION" />
+        android:name="com.revived.chaton.provider.WRITE_PERMISSION" />
     <permission
         android:name="com.coolots.permission.COOLOTS"
         android:protectionLevel="normal" />
@@ -503,18 +503,18 @@
             android:configChanges="keyboard|keyboardHidden|orientation" />
         <provider
             android:name="com.sec.chaton.provider.ChatONProvider"
-            android:readPermission="com.sec.chaton.provider.READ_PERMISSION"
-            android:writePermission="com.sec.chaton.provider.WRITE_PERMISSION"
-            android:authorities="com.sec.chaton.provider" />
+            android:readPermission="com.revived.chaton.provider.READ_PERMISSION"
+            android:writePermission="com.revived.chaton.provider.WRITE_PERMISSION"
+            android:authorities="com.revived.chaton.provider" />
         <provider
             android:name="com.sec.chaton.provider.ChatONProvider2"
-            android:writePermission="com.sec.chaton.provider.WRITE_PERMISSION"
-            android:authorities="com.sec.chaton.provider2" />
+            android:writePermission="com.revived.chaton.provider.WRITE_PERMISSION"
+            android:authorities="com.revived.chaton.provider2" />
         <provider
             android:name="com.sec.chaton.trunk.database.TrunkContentProvider"
-            android:readPermission="com.sec.chaton.provider.READ_PERMISSION"
-            android:writePermission="com.sec.chaton.provider.WRITE_PERMISSION"
-            android:authorities="com.develop.sec.chaton.provider" />
+            android:readPermission="com.revived.chaton.provider.READ_PERMISSION"
+            android:writePermission="com.revived.chaton.provider.WRITE_PERMISSION"
+            android:authorities="com.develop.revived.chaton.provider" />
         <service
             android:name="com.sec.chaton.account.ChatONSyncServiceAdapter"
             android:exported="true">
@@ -829,7 +829,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation" />
         <provider
             android:name="com.sec.chaton.access_token.AccessTokenProvider"
-            android:authorities="com.sec.chaton.access_token.provider" />
+            android:authorities="com.revived.chaton.access_token.provider" />
         <receiver
             android:name="com.sec.chaton.for3rd.PackageInstallReceiver">
             <intent-filter>

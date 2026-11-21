@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">異国の場合は国コードを選択</string>
     <string name="layout_scribble_send">送信</string>
     <string name="layout_scribble_cancel">キャンセル</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">電話番号を入力</string>
     <string name="regist_inputPno2">国際電話番号表記で電話番号を入力してください。</string>
     <string name="regist_already_regist">既に登録されています。</string>

@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Chọn mã quốc gia nếu nó khác với quốc gia của bạn</string>
     <string name="layout_scribble_send">Gửi</string>
     <string name="layout_scribble_cancel">Hủy</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Đăng ký số điện thoại của bạn</string>
     <string name="regist_inputPno2">Nhập số điện thoại theo dạng thức quốc tế</string>
     <string name="regist_already_regist">Đã đăng ký</string>

@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Pilih kode negara jika berbeda dari negara Anda</string>
     <string name="layout_scribble_send">Mengirim</string>
     <string name="layout_scribble_cancel">Batal</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Daftarkan nomor telepon Anda</string>
     <string name="regist_inputPno2">Masukkan nomor telepon dalam format internasional</string>
     <string name="regist_already_regist">Sudah terdaftar</string>

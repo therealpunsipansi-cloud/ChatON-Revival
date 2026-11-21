@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Επιλέξτε κωδικό χώρας, αν διαφέρει από το δικό σας</string>
     <string name="layout_scribble_send">Αποστ.</string>
     <string name="layout_scribble_cancel">Ακύρωση</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Καταχωρίστε τον αριθμό τηλεφώνου σας</string>
     <string name="regist_inputPno2">Εισαγάγετε τον αριθμό τηλεφώνου με διεθνή μορφή</string>
     <string name="regist_already_regist">Έχει εγγραφεί ήδη</string>

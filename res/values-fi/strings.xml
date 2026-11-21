@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Valitse maakoodi, jos se on muu kuin omasi</string>
     <string name="layout_scribble_send">Lähetä</string>
     <string name="layout_scribble_cancel">Peruuta</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Rekisteröi puhelinnumerosi</string>
     <string name="regist_inputPno2">Anna puhelinnumero kansainvälisessä muodossa</string>
     <string name="regist_already_regist">On jo rekisteröity</string>

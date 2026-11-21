@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Wybierz kod kraju, jeżeli jest inny od Twojego</string>
     <string name="layout_scribble_send">Wyślij</string>
     <string name="layout_scribble_cancel">Anuluj</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Zarejestruj swój numer telefonu</string>
     <string name="regist_inputPno2">Wprowadź numer telefonu w formacie międzynarodowym</string>
     <string name="regist_already_regist">Już zarejestrowano</string>

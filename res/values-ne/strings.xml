@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">यदि तपाईको देशको भन्दा भएमा देश संकेत चयन गर्नुहोस्</string>
     <string name="layout_scribble_send">पठाउ</string>
     <string name="layout_scribble_cancel">रद्ध</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">तपाइँको फोन न पञ्जीकृत गराउनुहोस्</string>
     <string name="regist_inputPno2">अन्तराष्ट्रिय ढाँचामा फोन नम्वर हाल</string>
     <string name="regist_already_regist">पहिल्यै रजिस्टर गरिएको</string>

@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">Wählen Sie die Ländervorwahl aus, wenn sie sich von Ihrer eigenen unterscheidet.</string>
     <string name="layout_scribble_send">Senden</string>
     <string name="layout_scribble_cancel">Abbruch</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">Telefonnummer registrieren</string>
     <string name="regist_inputPno2">Telefonnummer im internationalen Format eingeben.</string>
     <string name="regist_already_regist">Bereits registriert</string>

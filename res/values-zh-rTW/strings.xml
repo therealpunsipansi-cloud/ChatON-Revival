@@ -15,8 +15,8 @@
     <string name="layout_regist_select_country_code_if_differs">如果國碼與您所在國家不同，請選取之</string>
     <string name="layout_scribble_send">傳送</string>
     <string name="layout_scribble_cancel">取消</string>
-    <string name="app_name">ChatON</string>
-    <string name="label">ChatON</string>
+    <string name="app_name">ChatON Revived</string>
+    <string name="label">ChatON Revived</string>
     <string name="regist_inputPno">請註冊您的電話號碼</string>
     <string name="regist_inputPno2">請以國際格式輸入電話號碼</string>
     <string name="regist_already_regist">已登記</string>
