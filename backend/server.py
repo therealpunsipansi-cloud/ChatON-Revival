@@ -18,7 +18,6 @@ import threading
 # Configuration
 PORT = int(os.environ.get('PORT', 8080))
 HOST = os.environ.get('HOST', '0.0.0.0')
-FAMILY_INVITE_CODE = os.environ.get('FAMILY_INVITE_CODE', 'FAMILY2026')
 MAX_ACCOUNTS = 25
 MAX_BODY_SIZE = 65536  # 64KB
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'chaton_family.db')
@@ -192,14 +191,9 @@ class ChatONHandler(http.server.BaseHTTPRequestHandler):
             elif path in ['/api/register', '/register']:
                 username = body_data.get('username', '').strip()
                 password = body_data.get('password', '')
-                invite_code = body_data.get('invite_code', '').strip()
 
                 if not username or not password:
                     self.send_json(400, {'error': 'Bad Request', 'message': 'Username and password are required.'})
-                    return
-
-                if invite_code != FAMILY_INVITE_CODE:
-                    self.send_json(403, {'error': 'Forbidden', 'message': 'Invalid family invite code.'})
                     return
 
                 conn = sqlite3.connect(DB_PATH)

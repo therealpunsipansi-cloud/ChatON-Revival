@@ -13,11 +13,10 @@ A zero-dependency Python 3 standard library backend server designed to power the
    - **Account Lockout**: 5-minute account lockout after 5 consecutive failed login attempts on a username.
    - **Payload Limit**: 64KB maximum request body size limit (returns HTTP 413 if exceeded).
    - **Secure Password Hashing**: Salted PBKDF2-HMAC-SHA256 with 100,000 iterations.
-   - **Family Invite Code**: Configurable via `FAMILY_INVITE_CODE` environment variable (default: `FAMILY2026`).
    - **Account Cap**: Maximum cap of 25 registered family accounts.
 
 2. **Authentication Endpoints**:
-   - `POST /api/register` (or `/register`): Registers a new family account (requires `username`, `password`, `invite_code`). Returns `uid`, `acstoken`, `username`, `server_host`, `server_port`.
+   - `POST /api/register` (or `/register`): Registers a new family account (requires `username`, `password`). Returns `uid`, `acstoken`, `username`, `server_host`, `server_port`.
    - `POST /api/login` (or `/login`): Authenticates a user (requires `username`, `password`). Returns `uid`, `acstoken`, `username`, `server_host`, `server_port`.
 
 3. **ChatON Compatibility Endpoints**:
@@ -29,9 +28,8 @@ A zero-dependency Python 3 standard library backend server designed to power the
 ## Running the Server
 
 ```bash
-# Set custom port or invite code (optional)
+# Set custom port (optional)
 export PORT=8080
-export FAMILY_INVITE_CODE=FAMILY2026
 
 # Run the server
 python3 backend/server.py

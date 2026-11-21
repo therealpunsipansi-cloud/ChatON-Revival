@@ -4,3 +4,6 @@ dist/
 *.idsig
 *.keystore
 *.jks
+chaton_family.db
+backend/chaton_family.db
+
