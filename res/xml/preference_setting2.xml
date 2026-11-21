@@ -2,7 +2,7 @@
 <PreferenceScreen
     android:key="pref_screen"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.sec.chaton.settings.AboutNewNotice
+    <com.revived.chaton.settings.AboutNewNotice
         android:layout="@layout/preference_setting_menu"
         android:title="@string/settings_about"
         android:key="pref_item_about" />
@@ -22,11 +22,11 @@
         android:layout="@layout/preference_setting_menu"
         android:title="@string/setting_header_notifications"
         android:key="pref_item_Noti" />
-    <com.sec.chaton.settings.AboutNewNotice
+    <com.revived.chaton.settings.AboutNewNotice
         android:layout="@layout/preference_setting_menu"
         android:title="@string/setting_category_general"
         android:key="pref_item_General" />
-    <com.sec.chaton.settings.AboutNewNotice
+    <com.revived.chaton.settings.AboutNewNotice
         android:layout="@layout/preference_setting_menu"
         android:title="@string/settings_title_downloads"
         android:key="pref_item_Downloads" />

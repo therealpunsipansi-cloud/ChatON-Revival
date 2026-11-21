@@ -19,7 +19,7 @@
         android:layout_height="56.0dip"
         android:layout_marginLeft="6.6999817dip"
         android:layout_marginTop="20.0dip">
-        <com.sec.chaton.widget.RoundedImageView
+        <com.revived.chaton.widget.RoundedImageView
             android:id="@id/imgfriend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

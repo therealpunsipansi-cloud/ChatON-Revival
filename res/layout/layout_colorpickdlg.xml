@@ -11,7 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/scribble_hue" />
-    <com.sec.chaton.util.ColorSelector
+    <com.revived.chaton.util.ColorSelector
         android:id="@id/hue"
         android:layout_width="100.0dip"
         android:layout_height="200.0dip" />
@@ -20,7 +20,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/scribble_saturation" />
-    <com.sec.chaton.util.ColorSlider
+    <com.revived.chaton.util.ColorSlider
         android:id="@id/satutation"
         android:layout_width="100.0dip"
         android:layout_height="50.0dip" />
@@ -29,7 +29,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/scribble_brightness" />
-    <com.sec.chaton.util.ColorSlider
+    <com.revived.chaton.util.ColorSlider
         android:id="@id/brightness"
         android:layout_width="100.0dip"
         android:layout_height="50.0dip" />

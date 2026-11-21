@@ -7,7 +7,7 @@
         android:id="@id/buddy_child_profile_outline"
         android:layout_width="82.0dip"
         android:layout_height="fill_parent">
-        <com.sec.chaton.widget.RoundedImageView
+        <com.revived.chaton.widget.RoundedImageView
             android:id="@id/buddy_child_profile"
             android:layout_width="56.0dip"
             android:layout_height="56.0dip"

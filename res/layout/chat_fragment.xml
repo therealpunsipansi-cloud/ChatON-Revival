@@ -84,7 +84,7 @@
                         android:background="@null"
                         android:layout_width="wrap_content"
                         android:layout_height="fill_parent">
-                        <com.sec.chaton.widget.ProfileImageView
+                        <com.revived.chaton.widget.ProfileImageView
                             android:layout_gravity="center"
                             android:id="@id/Chaticon"
                             android:layout_width="40.0dip"
@@ -111,7 +111,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1.0">
-                    <com.sec.chaton.util.EllipsisTextView
+                    <com.revived.chaton.util.EllipsisTextView
                         android:textSize="17.0dip"
                         android:textStyle="bold"
                         android:textColor="@color/white"
@@ -197,7 +197,7 @@
                     android:cacheColorHint="#00000000"
                     android:divider="@null"
                     android:layout_weight="1.0" />
-                <com.sec.chaton.util.EllipsisTextView
+                <com.revived.chaton.util.EllipsisTextView
                     android:textSize="17.0dip"
                     android:textColor="@color/gray"
                     android:gravity="center"

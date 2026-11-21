@@ -15,7 +15,7 @@
         android:background="@drawable/thumb_default_line"
         android:layout_width="60.0dip"
         android:layout_height="60.0dip">
-        <com.sec.chaton.widget.ProfileImageView
+        <com.revived.chaton.widget.ProfileImageView
             android:layout_gravity="center"
             android:id="@id/friendImageCheck"
             android:focusable="false"

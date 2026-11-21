@@ -17,7 +17,7 @@
             android:layout_height="100.0dip"
             android:layout_marginLeft="14.0dip"
             android:layout_marginTop="14.0dip">
-            <com.sec.chaton.widget.RoundedImageView
+            <com.revived.chaton.widget.RoundedImageView
                 android:id="@id/profile_image"
                 android:layout_width="100.0dip"
                 android:layout_height="100.0dip"

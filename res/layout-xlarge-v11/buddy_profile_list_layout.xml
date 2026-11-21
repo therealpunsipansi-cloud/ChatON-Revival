@@ -96,7 +96,7 @@
                     android:layout_width="100.0dip"
                     android:layout_height="100.0dip"
                     android:layout_margin="14.0dip">
-                    <com.sec.chaton.widget.RoundedImageView
+                    <com.revived.chaton.widget.RoundedImageView
                         android:id="@id/profile_nonbuddy_image"
                         android:background="@drawable/contacts_default_img"
                         android:layout_width="100.0dip"

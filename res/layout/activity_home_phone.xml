@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <fragment
-        android:name="com.sec.chaton.HomeTabFragment"
+        android:name="com.revived.chaton.HomeTabFragment"
         android:id="@id/fragment_tab"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />

@@ -13,7 +13,7 @@
             android:padding="7.0dip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <com.sec.chaton.widget.ProfileImageView
+            <com.revived.chaton.widget.ProfileImageView
                 android:id="@id/spbd_profile_image"
                 android:visibility="visible"
                 android:layout_width="70.0dip"

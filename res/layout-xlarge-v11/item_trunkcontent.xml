@@ -14,7 +14,7 @@
         android:layout_marginTop="15.0dip"
         android:layout_marginRight="10.0dip"
         android:layout_weight="0.0">
-        <com.sec.chaton.widget.ProfileImageView
+        <com.revived.chaton.widget.ProfileImageView
             android:layout_gravity="center_vertical"
             android:id="@id/commentBuddyProfile"
             android:layout_width="56.0dip"

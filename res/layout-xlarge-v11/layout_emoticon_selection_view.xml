@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:baselineAligned="false"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:local="http://schemas.android.com/apk/res/com.sec.chaton">
+    xmlns:local="http://schemas.android.com/apk/res/com.revived.chaton">
     <RelativeLayout
         android:id="@android:id/title"
         android:background="@drawable/chatting_header"

@@ -9,7 +9,7 @@
         android:id="@id/rParent"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        <com.sec.chaton.widget.ProfileImageView
+        <com.revived.chaton.widget.ProfileImageView
             android:id="@id/imgfriend1"
             android:layout_width="48.659973dip"
             android:layout_height="48.659973dip"

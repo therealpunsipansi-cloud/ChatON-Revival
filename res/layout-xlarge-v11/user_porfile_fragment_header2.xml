@@ -12,7 +12,7 @@
         android:layout_width="fill_parent"
         android:layout_height="248.0dip"
         android:layout_marginTop="55.0dip">
-        <com.sec.chaton.widget.RoundedImageView
+        <com.revived.chaton.widget.RoundedImageView
             android:layout_gravity="center_horizontal"
             android:id="@id/imgbtnUPPhoto"
             android:background="@drawable/selector_mypage_profile_image"

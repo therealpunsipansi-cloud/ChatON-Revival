@@ -18,7 +18,7 @@
             android:layout_toLeftOf="@id/btn_TopLayout"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true">
-            <com.sec.chaton.util.EllipsisTextView
+            <com.revived.chaton.util.EllipsisTextView
                 android:textSize="22.0dip"
                 android:textColor="#ff000000"
                 android:gravity="left"
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true" />
-            <com.sec.chaton.util.EllipsisTextView
+            <com.revived.chaton.util.EllipsisTextView
                 android:textSize="18.0dip"
                 android:textColor="#ff7d7d7d"
                 android:id="@id/trunkContentTitleTime"

@@ -11,7 +11,7 @@
         android:focusable="false"
         android:layout_width="fill_parent"
         android:layout_height="76.0dip">
-        <com.sec.chaton.widget.ProfileImageView
+        <com.revived.chaton.widget.ProfileImageView
             android:layout_gravity="center_vertical"
             android:id="@id/Chaticon"
             android:layout_width="51.0dip"

@@ -226,7 +226,7 @@
                         android:layout_height="wrap_content"
                         android:maxWidth="200.0dip"
                         android:layout_below="@id/lLayoutRcvContent" />
-                    <com.sec.chaton.widget.ProfileImageView
+                    <com.revived.chaton.widget.ProfileImageView
                         android:id="@id/imageSndContent"
                         android:visibility="gone"
                         android:layout_width="wrap_content"

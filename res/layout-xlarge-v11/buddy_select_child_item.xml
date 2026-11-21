@@ -22,7 +22,7 @@
         android:layout_marginTop="9.0dip"
         android:layout_marginRight="10.0dip"
         android:layout_weight="0.0">
-        <com.sec.chaton.widget.RoundedImageView
+        <com.revived.chaton.widget.RoundedImageView
             android:layout_gravity="center_vertical"
             android:id="@id/buddy_select_child_profile"
             android:layout_width="56.0dip"

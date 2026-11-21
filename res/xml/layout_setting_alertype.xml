@@ -17,7 +17,7 @@
         android:key="pref_item_vibration"
         android:widgetLayout="@layout/preference_widget_checkbox"
         android:defaultValue="true" />
-    <com.sec.chaton.settings.RingtonePreference
+    <com.revived.chaton.settings.RingtonePreference
         android:layout="@layout/preference"
         android:title="@string/settings_alert_tone"
         android:key="pref_item_sound_type"

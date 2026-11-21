@@ -13,7 +13,7 @@
         android:layout_width="0.0dip"
         android:layout_height="64.0dip"
         android:layout_weight="1.0">
-        <com.sec.chaton.widget.ProfileImageView
+        <com.revived.chaton.widget.ProfileImageView
             android:id="@id/msgboxImageCheck"
             android:focusable="false"
             android:layout_width="53.0dip"

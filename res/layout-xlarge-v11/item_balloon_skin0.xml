@@ -145,7 +145,7 @@
                     android:layout_marginBottom="23.0dip"
                     android:scaleType="fitCenter"
                     android:layout_alignParentBottom="true">
-                    <com.sec.chaton.widget.ProfileImageView
+                    <com.revived.chaton.widget.ProfileImageView
                         android:layout_gravity="center_vertical"
                         android:id="@id/imageProfile"
                         android:layout_width="66.0dip"
@@ -234,7 +234,7 @@
                             android:layout_height="wrap_content"
                             android:maxWidth="200.0dip"
                             android:layout_below="@id/lLayoutRcvContent" />
-                        <com.sec.chaton.widget.ProfileImageView
+                        <com.revived.chaton.widget.ProfileImageView
                             android:id="@id/imageRcvContent"
                             android:visibility="gone"
                             android:layout_width="wrap_content"

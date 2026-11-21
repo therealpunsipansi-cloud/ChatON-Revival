@@ -19,7 +19,7 @@
         android:layout="@layout/chaton_preference_category"
         android:title="@string/setting_category_general"
         android:key="setting_category_general">
-        <com.sec.chaton.settings.AboutNewNotice
+        <com.revived.chaton.settings.AboutNewNotice
             android:title="@string/settings_about"
             android:key="pref_item_about" />
         <Preference
@@ -85,7 +85,7 @@
         android:layout="@layout/chaton_preference_category"
         android:title="@string/setting_category_backup_sync"
         android:key="settings_category_backup_sync">
-        <com.sec.chaton.settings.SyncStatePreference
+        <com.revived.chaton.settings.SyncStatePreference
             android:title="@string/settings_sync_now"
             android:key="pref_item_sync_now" />
         <PreferenceScreen

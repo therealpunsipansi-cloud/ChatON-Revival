@@ -16,7 +16,7 @@
                 android:orientation="horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
-                <com.sec.chaton.widget.RoundedImageView
+                <com.revived.chaton.widget.RoundedImageView
                     android:id="@id/imgbtnUPPhoto"
                     android:background="@drawable/selector_emoticon_selected"
                     android:padding="4.0dip"

@@ -161,7 +161,7 @@
                     android:id="@id/optionBar"
                     android:layout_width="fill_parent"
                     android:layout_height="76.0dip">
-                    <com.sec.chaton.widget.ProfileImageView
+                    <com.revived.chaton.widget.ProfileImageView
                         android:layout_gravity="center_vertical"
                         android:id="@id/Chaticon"
                         android:layout_width="51.0dip"
@@ -308,7 +308,7 @@
                         android:layout_marginLeft="10.0dip"
                         android:src="@drawable/chat_emoticon_btn_honeycom"
                         android:onClick="onEmoticonClick" />
-                    <com.sec.chaton.chat.MyEditText
+                    <com.revived.chaton.chat.MyEditText
                         android:textSize="22.0dip"
                         android:textColorHint="#aa505050"
                         android:id="@id/editChatMsg"
@@ -380,7 +380,7 @@
                 android:layout_weight="0.5" />
         </LinearLayout>
     </LinearLayout>
-    <com.sec.chaton.multimedia.emoticon.EmoticonSelectionView
+    <com.revived.chaton.multimedia.emoticon.EmoticonSelectionView
         android:orientation="vertical"
         android:id="@id/scrollemoticon"
         android:background="@drawable/chat_emoticon_bg"
@@ -433,5 +433,5 @@
                 android:numColumns="auto_fit"
                 android:layout_weight="1.0" />
         </LinearLayout>
-    </com.sec.chaton.multimedia.emoticon.EmoticonSelectionView>
+    </com.revived.chaton.multimedia.emoticon.EmoticonSelectionView>
 </RelativeLayout>

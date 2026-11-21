@@ -23,7 +23,7 @@
                 android:layout_marginRight="7.0dip"
                 android:layout_marginBottom="5.0dip"
                 android:layout_alignParentLeft="true">
-                <com.sec.chaton.widget.ProfileImageView
+                <com.revived.chaton.widget.ProfileImageView
                     android:layout_gravity="center_vertical"
                     android:id="@id/msgboxImageCheck"
                     android:focusable="false"
