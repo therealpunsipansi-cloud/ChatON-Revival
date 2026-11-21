@@ -844,4 +844,5 @@
     <string name="menu_voice_call">Voice Call</string>
     <string name="menu_video_call">Video Call</string>
     <string name="call_toast_failed_exceed">Up to %d people, including yourself, can be in your ChatON call list.</string>
+    <string name="custom_server_url">http://127.0.0.1:8080</string>
 </resources>

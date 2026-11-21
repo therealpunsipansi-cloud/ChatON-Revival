@@ -146,7 +146,7 @@
 
     .line 111
     :cond_1
-    const-string v1, "https://gld1.samsungchaton.com"
+    const-string v1, "http://127.0.0.1:8080"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -155,7 +155,7 @@
     if-eqz v1, :cond_0
 
     .line 112
-    const-string v0, "https://gld2.samsungchaton.com"
+    const-string v0, "http://127.0.0.1:8080"
 
     goto :goto_0
 .end method

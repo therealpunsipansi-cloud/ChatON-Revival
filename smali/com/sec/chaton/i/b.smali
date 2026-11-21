@@ -27,19 +27,19 @@
     .line 59
     new-array v0, v2, [Ljava/lang/String;
 
-    const-string v1, "https://gld1.samsungchaton.com"
+    const-string v1, "http://127.0.0.1:8080"
 
     aput-object v1, v0, v3
 
-    const-string v1, "https://stg.gld1.samsungchaton.com"
+    const-string v1, "http://127.0.0.1:8080"
 
     aput-object v1, v0, v4
 
-    const-string v1, "https://stg.gld2.samsungchaton.com"
+    const-string v1, "http://127.0.0.1:8080"
 
     aput-object v1, v0, v5
 
-    const-string v1, "http://ec2-50-17-226-248.compute-1.amazonaws.com"
+    const-string v1, "http://127.0.0.1:8080"
 
     aput-object v1, v0, v6
 
